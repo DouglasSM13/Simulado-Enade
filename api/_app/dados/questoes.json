@@ -39,7 +39,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Na classificação de Tanenbaum: sistemas <b>em lote</b> usam FCFS, tarefa mais curta primeiro e menor tempo restante; sistemas <b>interativos</b> usam round-robin, prioridades e filas múltiplas; sistemas de <b>tempo real</b> usam algoritmos como taxas monotônicas (RMS) e EDF.</p><p>Por isso RMS não é de lote (B), tarefa mais curta primeiro não é típica de interativos (C), round-robin é de interativos e não de tempo real (D) e FILO nem é um algoritmo de escalonamento usual (A).</p>"
+   "comentario": "<p>Na classificação de Tanenbaum: sistemas <b>em lote</b> usam FCFS, tarefa mais curta primeiro e menor tempo restante; sistemas <b>interativos</b> usam round-robin, prioridades e filas múltiplas; sistemas de <b>tempo real</b> usam algoritmos como taxas monotônicas (RMS) e EDF.</p><p>Por isso RMS não é de lote (B), tarefa mais curta primeiro não é típica de interativos (C), round-robin é de interativos e não de tempo real (D) e FILO nem é um algoritmo de escalonamento usual (A).</p>",
+   "video": {
+    "titulo": "Sistemas operacionais: escalonamento de processos",
+    "url": "https://www.youtube.com/watch?v=weKa9H88bjY"
+   }
   },
   {
    "id": "2021-CC-10",
@@ -78,7 +82,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Inserção nas duas pontas = <b>deque</b>. Ordem dada por referência ao próximo = <b>lista simplesmente ligada</b>. Remoção na ordem inversa da inserção = <b>pilha (LIFO)</b>. Remove o primeiro inserido = <b>fila (FIFO)</b>.</p>"
+   "comentario": "<p>Inserção nas duas pontas = <b>deque</b>. Ordem dada por referência ao próximo = <b>lista simplesmente ligada</b>. Remoção na ordem inversa da inserção = <b>pilha (LIFO)</b>. Remove o primeiro inserido = <b>fila (FIFO)</b>.</p>",
+   "video": {
+    "titulo": "Estrutura de dados com Python: pilhas e filas",
+    "url": "https://www.youtube.com/watch?v=Ey_hbtTY2no"
+   }
   },
   {
    "id": "2021-CC-11",
@@ -117,7 +125,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p><b>II</b>: redes convolucionais são a arquitetura própria para imagens e têm alto custo computacional. <b>IV</b>: mais dados tendem a melhorar a generalização e aumentam o tempo de treino.</p><p>I e III erram porque mais camadas ou mais neurônios <em>aumentam</em> o tempo de treinamento. V erra porque redes recorrentes são voltadas a sequências (texto, séries temporais), não à classificação de imagens.</p>"
+   "comentario": "<p><b>II</b>: redes convolucionais são a arquitetura própria para imagens e têm alto custo computacional. <b>IV</b>: mais dados tendem a melhorar a generalização e aumentam o tempo de treino.</p><p>I e III erram porque mais camadas ou mais neurônios <em>aumentam</em> o tempo de treinamento. V erra porque redes recorrentes são voltadas a sequências (texto, séries temporais), não à classificação de imagens.</p>",
+   "video": {
+    "titulo": "O que são Redes Neurais Convolucionais?",
+    "url": "https://www.youtube.com/watch?v=sgt_67zNDrI"
+   }
   },
   {
    "id": "2021-CC-12",
@@ -156,7 +168,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>I e III estão na lei: dados sensíveis têm tratamento restrito e o titular tem direito de confirmação, acesso, correção e eliminação.</p><p>II é falsa: se a anonimização puder ser revertida com esforços razoáveis, o dado volta a ser pessoal (art. 12). IV é falsa: a ANPD fiscaliza e regulamenta, mas não altera a lei, que é competência do Legislativo.</p>"
+   "comentario": "<p>I e III estão na lei: dados sensíveis têm tratamento restrito e o titular tem direito de confirmação, acesso, correção e eliminação.</p><p>II é falsa: se a anonimização puder ser revertida com esforços razoáveis, o dado volta a ser pessoal (art. 12). IV é falsa: a ANPD fiscaliza e regulamenta, mas não altera a lei, que é competência do Legislativo.</p>",
+   "video": {
+    "titulo": "LGPD: diferença entre dado pessoal e dado sensível",
+    "url": "https://www.youtube.com/watch?v=x2BeTtuIoYQ"
+   }
   },
   {
    "id": "2021-CC-13",
@@ -195,7 +211,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>O modelo iterativo <em>acolhe</em> mudanças (A errada) e mantém a duração fixa da iteração (B errada). Usabilidade é avaliada a cada iteração, não só no fim (C errada). O resultado de uma iteração é parte do sistema de produção, não um protótipo (D errada, segundo o gabarito).</p><p>Resta E: o teste de usabilidade deve contemplar critérios de acessibilidade para cobrir todos os perfis de usuário.</p>"
+   "comentario": "<p>O modelo iterativo <em>acolhe</em> mudanças (A errada) e mantém a duração fixa da iteração (B errada). Usabilidade é avaliada a cada iteração, não só no fim (C errada). O resultado de uma iteração é parte do sistema de produção, não um protótipo (D errada, segundo o gabarito).</p><p>Resta E: o teste de usabilidade deve contemplar critérios de acessibilidade para cobrir todos os perfis de usuário.</p>",
+   "video": {
+    "titulo": "O que significa algo ser iterativo e incremental?",
+    "url": "https://www.youtube.com/watch?v=CV3AZrFCycQ"
+   }
   },
   {
    "id": "2021-CC-14",
@@ -234,7 +254,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>I é verdadeira: CPU, memória única para dados e programa e E/S continuam sendo a base dos computadores atuais.</p><p>II é falsa: o que ela descreve é a <b>pré-busca de instruções</b> (prefetch/pipeline), técnica posterior, não o que define a arquitetura de Von Neumann.</p>"
+   "comentario": "<p>I é verdadeira: CPU, memória única para dados e programa e E/S continuam sendo a base dos computadores atuais.</p><p>II é falsa: o que ela descreve é a <b>pré-busca de instruções</b> (prefetch/pipeline), técnica posterior, não o que define a arquitetura de Von Neumann.</p>",
+   "video": {
+    "titulo": "Como os computadores funcionam – arquitetura de Von Neumann",
+    "url": "https://www.youtube.com/watch?v=-22hT2vXD48"
+   }
   },
   {
    "id": "2021-CC-15",
@@ -273,7 +297,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>I e II descrevem os papéis corretamente. III é falsa: o time Scrum é auto-organizado; nem o Scrum Master (facilitador) nem o Product Owner (dono do backlog) têm autoridade hierárquica sobre a equipe.</p>"
+   "comentario": "<p>I e II descrevem os papéis corretamente. III é falsa: o time Scrum é auto-organizado; nem o Scrum Master (facilitador) nem o Product Owner (dono do backlog) têm autoridade hierárquica sobre a equipe.</p>",
+   "video": {
+    "titulo": "Os papéis do Scrum",
+    "url": "https://www.youtube.com/watch?v=9__bzr_lX88"
+   }
   },
   {
    "id": "2021-CC-17",
@@ -312,7 +340,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>I é verdadeira: dentro do núcleo, desabilitar interrupções é uma forma válida de exclusão mútua, mas não se dá esse poder a processos de usuário.</p><p>II é falsa: desabilitar interrupções só afeta a CPU que executa a instrução; em multiprocessadores as outras CPUs continuam e podem entrar na região crítica. A técnica é ineficaz justamente nesse cenário.</p>"
+   "comentario": "<p>I é verdadeira: dentro do núcleo, desabilitar interrupções é uma forma válida de exclusão mútua, mas não se dá esse poder a processos de usuário.</p><p>II é falsa: desabilitar interrupções só afeta a CPU que executa a instrução; em multiprocessadores as outras CPUs continuam e podem entrar na região crítica. A técnica é ineficaz justamente nesse cenário.</p>",
+   "video": {
+    "titulo": "SO – condições de corrida, região crítica e exclusão mútua",
+    "url": "https://www.youtube.com/watch?v=vzSd-AM14x4"
+   }
   },
   {
    "id": "2021-CC-18",
@@ -351,7 +383,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>II é a única falsa: \"saída desejada\" só existe quando há rótulo, isto é, no aprendizado <b>supervisionado</b>. No não supervisionado o modelo busca padrões (III). Regressão linear aprende com pares rotulados (I) e generaliza para dados novos (IV).</p>"
+   "comentario": "<p>II é a única falsa: \"saída desejada\" só existe quando há rótulo, isto é, no aprendizado <b>supervisionado</b>. No não supervisionado o modelo busca padrões (III). Regressão linear aprende com pares rotulados (I) e generaliza para dados novos (IV).</p>",
+   "video": {
+    "titulo": "Aprendizado supervisionado × não supervisionado",
+    "url": "https://www.youtube.com/watch?v=JDDqP6IZ4NQ"
+   }
   },
   {
    "id": "2021-CC-19",
@@ -390,7 +426,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>Personas e cenários são narrativas informais: explicitam o implícito (I), ajudam a prever o impacto das decisões (II) e mantêm o usuário real em foco (IV). Por serem narrativas, não produzem especificação <b>formal e não ambígua</b> (III é falsa).</p>"
+   "comentario": "<p>Personas e cenários são narrativas informais: explicitam o implícito (I), ajudam a prever o impacto das decisões (II) e mantêm o usuário real em foco (IV). Por serem narrativas, não produzem especificação <b>formal e não ambígua</b> (III é falsa).</p>",
+   "video": {
+    "titulo": "Personas no design de interfaces (IHC)",
+    "url": "https://www.youtube.com/watch?v=VrU5XNu2e3o"
+   }
   },
   {
    "id": "2021-CC-20",
@@ -429,7 +469,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>funcao1 é busca sequencial: 15 está no índice 7. funcao2 é busca binária: m = 4 (valor 9); 15 &gt; 9, busca em [5, 9]; m = 7 (valor 15). Imprime <code>7 - 7</code> (I correta).</p><p>II é falsa: no pior caso a sequencial é O(n) e a binária O(log n). III é falsa: funcao2 é <b>recursiva</b>.</p>"
+   "comentario": "<p>funcao1 é busca sequencial: 15 está no índice 7. funcao2 é busca binária: m = 4 (valor 9); 15 &gt; 9, busca em [5, 9]; m = 7 (valor 15). Imprime <code>7 - 7</code> (I correta).</p><p>II é falsa: no pior caso a sequencial é O(n) e a binária O(log n). III é falsa: funcao2 é <b>recursiva</b>.</p>",
+   "video": {
+    "titulo": "Busca sequencial e busca binária",
+    "url": "https://www.youtube.com/watch?v=41N7iaLsUZQ"
+   }
   },
   {
    "id": "2021-CC-21",
@@ -468,7 +512,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>E reproduz o exemplo de Tanenbaum: um gateway de transporte pode repassar dados de uma conexão TCP para uma conexão SCTP.</p><p>A: repetidores lidam com sinais e não entendem cabeçalho algum. B: hub não tem buffer; quadros simultâneos colidem. C: a bridge usa o endereço do cabeçalho do quadro (MAC), não a carga útil. D: em redes de broadcast o roteamento é simples ou inexistente.</p>"
+   "comentario": "<p>E reproduz o exemplo de Tanenbaum: um gateway de transporte pode repassar dados de uma conexão TCP para uma conexão SCTP.</p><p>A: repetidores lidam com sinais e não entendem cabeçalho algum. B: hub não tem buffer; quadros simultâneos colidem. C: a bridge usa o endereço do cabeçalho do quadro (MAC), não a carga útil. D: em redes de broadcast o roteamento é simples ou inexistente.</p>",
+   "video": {
+    "titulo": "Diferenças entre hub, switch e roteador",
+    "url": "https://www.youtube.com/watch?v=X6nwnKIooWg"
+   }
   },
   {
    "id": "2021-CC-22",
@@ -507,7 +555,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Em relacionamentos 1:N a chave estrangeira vai para o lado <b>N</b>. Nos dois relacionamentos o PET está no lado N (um tipo e um adotante por pet), então PET recebe as duas FKs.</p><p>B e C põem a FK no lado errado (cada pessoa teria um só pet). D junta tudo numa tabela, com redundância. E copia a descrição do tipo para PET e elimina TIPO_PET.</p>"
+   "comentario": "<p>Em relacionamentos 1:N a chave estrangeira vai para o lado <b>N</b>. Nos dois relacionamentos o PET está no lado N (um tipo e um adotante por pet), então PET recebe as duas FKs.</p><p>B e C põem a FK no lado errado (cada pessoa teria um só pet). D junta tudo numa tabela, com redundância. E copia a descrição do tipo para PET e elimina TIPO_PET.</p>",
+   "video": {
+    "titulo": "Do diagrama ER ao modelo relacional (1:1, 1:n, n:m)",
+    "url": "https://www.youtube.com/watch?v=9KbaoD8J_14"
+   }
   },
   {
    "id": "2021-CC-23",
@@ -546,7 +598,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>O percurso em-ordem de uma ABB sempre devolve os elementos <b>ordenados</b>: C está correta.</p><p>A raiz 27 tem 7 elementos à esquerda e 3 à direita (A). A sequência de B é a pós-ordem real e a de D é a pré-ordem real (estão trocadas). Com 10 níveis cabem no máximo 2¹⁰ − 1 = 1 023 elementos (E).</p>"
+   "comentario": "<p>O percurso em-ordem de uma ABB sempre devolve os elementos <b>ordenados</b>: C está correta.</p><p>A raiz 27 tem 7 elementos à esquerda e 3 à direita (A). A sequência de B é a pós-ordem real e a de D é a pré-ordem real (estão trocadas). Com 10 níveis cabem no máximo 2¹⁰ − 1 = 1 023 elementos (E).</p>",
+   "video": {
+    "titulo": "Árvore binária: em-ordem, pré-ordem e pós-ordem",
+    "url": "https://www.youtube.com/watch?v=4Bl2Xhd8hOA"
+   }
   },
   {
    "id": "2021-CC-24",
@@ -585,7 +641,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>III é a armadilha: AES é simétrico, mas criptografia simétrica usa <b>uma única chave compartilhada</b>; par de chaves é coisa de criptografia assimétrica.</p><p>I: assinatura digital é verificada com a chave pública do remetente. II: IV variável faz mensagens iguais gerarem cifras diferentes. IV: hash verifica integridade.</p>"
+   "comentario": "<p>III é a armadilha: AES é simétrico, mas criptografia simétrica usa <b>uma única chave compartilhada</b>; par de chaves é coisa de criptografia assimétrica.</p><p>I: assinatura digital é verificada com a chave pública do remetente. II: IV variável faz mensagens iguais gerarem cifras diferentes. IV: hash verifica integridade.</p>",
+   "video": {
+    "titulo": "Criptografia simétrica, assimétrica e funções de hash",
+    "url": "https://www.youtube.com/watch?v=1-zSxgJKA2o"
+   }
   },
   {
    "id": "2021-CC-25",
@@ -624,7 +684,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>I e IV são as definições do NIST para SaaS e IaaS.</p><p>II: elasticidade é ajustar a <b>quantidade de recursos</b> à demanda, não o \"tempo de disponibilidade\". III: nuvem comunidade é uma infraestrutura usada de forma exclusiva por organizações com interesses comuns, não o gerenciamento dos recursos que pertencem a cada uma.</p>"
+   "comentario": "<p>I e IV são as definições do NIST para SaaS e IaaS.</p><p>II: elasticidade é ajustar a <b>quantidade de recursos</b> à demanda, não o \"tempo de disponibilidade\". III: nuvem comunidade é uma infraestrutura usada de forma exclusiva por organizações com interesses comuns, não o gerenciamento dos recursos que pertencem a cada uma.</p>",
+   "video": {
+    "titulo": "Entenda os modelos de nuvem: SaaS, PaaS e IaaS",
+    "url": "https://www.youtube.com/watch?v=8ITW8--C2a4"
+   }
   },
   {
    "id": "2021-CC-26",
@@ -663,7 +727,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>II e III trocaram as técnicas. Orientação direta, anotação, ocultação e ordenação de <b>links</b> são técnicas de <b>navegação</b>; layouts de página e guias de estilo são de <b>apresentação</b>. Só I está correta.</p>"
+   "comentario": "<p>II e III trocaram as técnicas. Orientação direta, anotação, ocultação e ordenação de <b>links</b> são técnicas de <b>navegação</b>; layouts de página e guias de estilo são de <b>apresentação</b>. Só I está correta.</p>",
+   "video": {
+    "titulo": "Conceitos básicos de IHC (interação, interface, affordance)",
+    "url": "https://www.youtube.com/watch?v=NdmOR3TqN9Y"
+   }
   },
   {
    "id": "2021-CC-27",
@@ -702,7 +770,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>Regra empírica da normal: μ ± 1σ ≈ 68,26%; μ ± 2σ ≈ 95,44%; μ ± 3σ ≈ 99,74%.</p><p>[151, 191] = 171 ± 2·10 → 95,44%. Os demais não batem: [161, 181] é ±1σ (68,26%), [141, 201] é ±3σ e [171, 191] vai de 0 a +2σ (≈ 47,72%).</p>"
+   "comentario": "<p>Regra empírica da normal: μ ± 1σ ≈ 68,26%; μ ± 2σ ≈ 95,44%; μ ± 3σ ≈ 99,74%.</p><p>[151, 191] = 171 ± 2·10 → 95,44%. Os demais não batem: [161, 181] é ±1σ (68,26%), [141, 201] é ±3σ e [171, 191] vai de 0 a +2σ (≈ 47,72%).</p>",
+   "video": {
+    "titulo": "Distribuição normal – curva de Gauss",
+    "url": "https://www.youtube.com/watch?v=p7HCgp2HIAs"
+   }
   },
   {
    "id": "2021-CC-28",
@@ -741,7 +813,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>I descreve a bolha avançando estágio a estágio; IV descreve a previsão de desvio com BTB.</p><p>II é falsa: no pipeline clássico toda instrução passa por todos os estágios, senão colidiria com a instrução da frente. III é falsa: S1 só busca instruções; operandos são buscados em S3.</p>"
+   "comentario": "<p>I descreve a bolha avançando estágio a estágio; IV descreve a previsão de desvio com BTB.</p><p>II é falsa: no pipeline clássico toda instrução passa por todos os estágios, senão colidiria com a instrução da frente. III é falsa: S1 só busca instruções; operandos são buscados em S3.</p>",
+   "video": {
+    "titulo": "Pipeline de instruções: estágios, hazards e forwarding",
+    "url": "https://www.youtube.com/watch?v=QnpDwbLHOfY"
+   }
   },
   {
    "id": "2021-CC-30",
@@ -780,7 +856,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>II é falsa: os tokens (palavras reservadas, operadores, delimitadores) dependem de cada linguagem. I, III e IV descrevem as fases sintática, semântica (por exemplo, verificação de tipos) e de otimização.</p>"
+   "comentario": "<p>II é falsa: os tokens (palavras reservadas, operadores, delimitadores) dependem de cada linguagem. I, III e IV descrevem as fases sintática, semântica (por exemplo, verificação de tipos) e de otimização.</p>",
+   "video": {
+    "titulo": "Compiladores – introdução e fases de compilação",
+    "url": "https://www.youtube.com/watch?v=Q5lLGCOSYIk"
+   }
   },
   {
    "id": "2021-CC-32",
@@ -819,7 +899,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>É o <b>Quicksort</b> com partição de Lomuto. No pior caso a recursão tem profundidade n: O(n) de pilha (I). Em média, O(n log n) comparações (III).</p><p>Não é estável (II falsa): trocas de longa distância invertem elementos iguais. Primeiro ou último como pivô têm a mesma eficiência esperada (IV falsa).</p>"
+   "comentario": "<p>É o <b>Quicksort</b> com partição de Lomuto. No pior caso a recursão tem profundidade n: O(n) de pilha (I). Em média, O(n log n) comparações (III).</p><p>Não é estável (II falsa): trocas de longa distância invertem elementos iguais. Primeiro ou último como pivô têm a mesma eficiência esperada (IV falsa).</p>",
+   "video": {
+    "titulo": "O que é e como funciona o QuickSort (passo a passo)",
+    "url": "https://www.youtube.com/watch?v=wU7Q8Z51MUI"
+   }
   },
   {
    "id": "2021-CC-35",
@@ -858,7 +942,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>Escalabilidade é crescer acrescentando recursos (D). Sistemas distribuídos não têm relógio global (A), toleram falhas parciais (B) e lidam com heterogeneidade (C). Acesso concorrente é a característica de <b>concorrência</b>, não de transparência (E).</p>"
+   "comentario": "<p>Escalabilidade é crescer acrescentando recursos (D). Sistemas distribuídos não têm relógio global (A), toleram falhas parciais (B) e lidam com heterogeneidade (C). Acesso concorrente é a característica de <b>concorrência</b>, não de transparência (E).</p>",
+   "video": {
+    "titulo": "Fundamentos de sistemas distribuídos",
+    "url": "https://www.youtube.com/watch?v=dW_lzLn96z0"
+   }
   },
   {
    "id": "2021-CC-D3",
@@ -876,7 +964,11 @@
    "enunciado": "<p>Um corpo de conhecimento representado na lógica proposicional utiliza os conectivos de implicação (→), conjunção (∧), disjunção (∨) e negação (¬). Seja P o conjunto de fórmulas 1. a → ¬b; 2. b ∧ a; 3. ¬b ∨ b; seja Q o conjunto 4. a ∨ b; 5. b → a; e seja R a fórmula 6. ¬b → a.</p>\n<p>Definições: (i) tautologia é verdadeira para toda atribuição; (ii) uma atribuição satisfaz um conjunto se torna verdadeiras todas as suas fórmulas; (iii) um conjunto é satisfazível se existe atribuição que o satisfaz, e insatisfazível caso contrário; (iv) uma fórmula é consequência lógica de um conjunto se toda atribuição que satisfaz o conjunto satisfaz a fórmula.</p>\n<p>Com base nas informações apresentadas, responda os itens a seguir.</p>\n<div class=\"itens\"><p>a) Há alguma tautologia nas fórmulas 1 a 6? Justifique sua resposta. (valor: 2,5 pontos)</p><p>b) Há algum conjunto (P ou Q) satisfazível? Justifique sua resposta. (valor: 2,5 pontos)</p><p>c) Há algum conjunto (P ou Q) insatisfazível? Justifique sua resposta. (valor: 2,5 pontos)</p><p>d) A fórmula 6 é consequência lógica de Q? Justifique sua resposta. (valor: 2,5 pontos)</p></div>",
    "alternativas": [],
    "gabarito": null,
-   "comentario": "<div class=\"tw\"><table class=\"t\"><tr><th>a</th><th>b</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr>\n<tr><td>F</td><td>F</td><td>V</td><td>F</td><td>V</td><td>F</td><td>V</td><td>F</td></tr>\n<tr><td>F</td><td>V</td><td>V</td><td>F</td><td>V</td><td>V</td><td>F</td><td>V</td></tr>\n<tr><td>V</td><td>F</td><td>V</td><td>F</td><td>V</td><td>V</td><td>V</td><td>V</td></tr>\n<tr><td>V</td><td>V</td><td>F</td><td>V</td><td>V</td><td>V</td><td>V</td><td>V</td></tr></table></div>\n<p>a) Sim: a fórmula 3 (¬b ∨ b) é verdadeira nas quatro linhas.</p><p>b) Q é satisfazível: (a=V, b=F) e (a=V, b=V) tornam 4 e 5 verdadeiras.</p><p>c) P é insatisfazível: a fórmula 2 só vale em (V, V), e nessa linha a fórmula 1 é falsa.</p><p>d) Sim: nas duas linhas que satisfazem Q, a fórmula 6 é verdadeira.</p>"
+   "comentario": "<div class=\"tw\"><table class=\"t\"><tr><th>a</th><th>b</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr>\n<tr><td>F</td><td>F</td><td>V</td><td>F</td><td>V</td><td>F</td><td>V</td><td>F</td></tr>\n<tr><td>F</td><td>V</td><td>V</td><td>F</td><td>V</td><td>V</td><td>F</td><td>V</td></tr>\n<tr><td>V</td><td>F</td><td>V</td><td>F</td><td>V</td><td>V</td><td>V</td><td>V</td></tr>\n<tr><td>V</td><td>V</td><td>F</td><td>V</td><td>V</td><td>V</td><td>V</td><td>V</td></tr></table></div>\n<p>a) Sim: a fórmula 3 (¬b ∨ b) é verdadeira nas quatro linhas.</p><p>b) Q é satisfazível: (a=V, b=F) e (a=V, b=V) tornam 4 e 5 verdadeiras.</p><p>c) P é insatisfazível: a fórmula 2 só vale em (V, V), e nessa linha a fórmula 1 é falsa.</p><p>d) Sim: nas duas linhas que satisfazem Q, a fórmula 6 é verdadeira.</p>",
+   "video": {
+    "titulo": "Lógica matemática – proposições e operações lógicas",
+    "url": "https://www.youtube.com/watch?v=pU4I8sC-2WM"
+   }
   },
   {
    "id": "2021-CC-D5",
@@ -894,7 +986,11 @@
    "enunciado": "<p>Um heap binário é um arranjo que pode ser visualizado como uma árvore binária; no heap máximo, cada nó filho armazena valor menor ou igual ao do pai. Considere a implementação a seguir.</p>\n<pre><code>int left(int i) { return (2 * i + 1); }\nint right(int i) { return (2 * i + 2); }\n/* a - arranjo, n - número de elementos,\n   i - posição do elemento que deve ser\n   colocado em propriedade de heap */\nvoid heapify (int *a, int n, int i)\n{\n   int e, d, max, aux;\n   e = left(i);\n   d = right(i);\n   if (e &lt; n &amp;&amp; a[e] &gt; a[i])\n      max = e;\n   else\n      max = i;\n   if (d &lt; n &amp;&amp; a[d] &gt; a[max])\n      max = d;\n   if (max != i)\n   {\n      aux = a[i];\n      a[i] = a[max];\n      a[max] = aux;\n      heapify(a, n, max);\n   }\n}\n/* a - arranjo, n - número de elementos */\nvoid buildHeap(int *a, int n)\n{\n   int i;\n   for (i = (n-1)/2; i &gt;= 0; i--)\n      heapify(a, n, i);\n}</code></pre>\n<p>De acordo com as informações apresentadas, faça o que se pede nos itens a seguir.</p>\n<div class=\"itens\"><p>a) Como ficará o arranjo int a[ ] = {2, 5, 8 ,13, 21, 1, 3, 34} após a execução da função buildHeap(a, 8). (valor: 5,0 pontos)</p><p>b) Apresente a complexidade de tempo no pior caso para a função heapify, use a notação O ou Θ. (valor: 5,0 pontos)</p></div>",
    "alternativas": [],
    "gabarito": null,
-   "comentario": "<p>a) i começa em (8−1)/2 = 3.</p><ul><li>i = 3: filho 34 &gt; 13, troca → {2, 5, 8, 34, 21, 1, 3, 13}</li><li>i = 2: filhos 1 e 3 menores que 8, nada muda</li><li>i = 1: troca com 34 → {2, 34, 8, 5, 21, 1, 3, 13}; desce: 13 &gt; 5 → {2, 34, 8, 13, 21, 1, 3, 5}</li><li>i = 0: troca com 34 → {34, 2, 8, 13, 21, 1, 3, 5}; desce: troca com 21 → {34, 21, 8, 13, 2, 1, 3, 5}</li></ul><p><b>Resultado: {34, 21, 8, 13, 2, 1, 3, 5}</b> (conferido executando o código).</p><p>b) No pior caso o elemento desce da raiz até uma folha, percorrendo a altura da árvore: <b>O(log n)</b>.</p>"
+   "comentario": "<p>a) i começa em (8−1)/2 = 3.</p><ul><li>i = 3: filho 34 &gt; 13, troca → {2, 5, 8, 34, 21, 1, 3, 13}</li><li>i = 2: filhos 1 e 3 menores que 8, nada muda</li><li>i = 1: troca com 34 → {2, 34, 8, 5, 21, 1, 3, 13}; desce: 13 &gt; 5 → {2, 34, 8, 13, 21, 1, 3, 5}</li><li>i = 0: troca com 34 → {34, 2, 8, 13, 21, 1, 3, 5}; desce: troca com 21 → {34, 21, 8, 13, 2, 1, 3, 5}</li></ul><p><b>Resultado: {34, 21, 8, 13, 2, 1, 3, 5}</b> (conferido executando o código).</p><p>b) No pior caso o elemento desce da raiz até uma folha, percorrendo a altura da árvore: <b>O(log n)</b>.</p>",
+   "video": {
+    "titulo": "Heap binária: inserção, remoção e heapsort",
+    "url": "https://www.youtube.com/watch?v=60wr5xzMTkk"
+   }
   },
   {
    "id": "2021-SI-09",
@@ -933,7 +1029,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>A linha simples entre Segurado e Seguro é uma <b>associação</b> (II), e a multiplicidade 0..n permite várias apólices por segurado (IV).</p><p>I: herança múltipla é uma subclasse com <em>várias superclasses</em>; aqui é uma superclasse com várias subclasses (herança simples). III: as subclasses concretas são as que se instanciam; se alguma devesse ser abstrata, seria Seguro.</p>"
+   "comentario": "<p>A linha simples entre Segurado e Seguro é uma <b>associação</b> (II), e a multiplicidade 0..n permite várias apólices por segurado (IV).</p><p>I: herança múltipla é uma subclasse com <em>várias superclasses</em>; aqui é uma superclasse com várias subclasses (herança simples). III: as subclasses concretas são as que se instanciam; se alguma devesse ser abstrata, seria Seguro.</p>",
+   "video": {
+    "titulo": "UML – diagrama de classes: associações",
+    "url": "https://www.youtube.com/watch?v=ZolGP2ZKgsg"
+   }
   },
   {
    "id": "2021-SI-15",
@@ -972,7 +1072,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>Projeto é <b>temporário</b> e gera algo <b>único</b> (I, II, IV). Operar um software repetidamente é <b>operação contínua</b>, não projeto (III falsa).</p>"
+   "comentario": "<p>Projeto é <b>temporário</b> e gera algo <b>único</b> (I, II, IV). Operar um software repetidamente é <b>operação contínua</b>, não projeto (III falsa).</p>",
+   "video": {
+    "titulo": "Como elaborar um TAP – Termo de Abertura do Projeto",
+    "url": "https://www.youtube.com/watch?v=5qAVlFQq0OA"
+   }
   },
   {
    "id": "2021-SI-17",
@@ -1011,7 +1115,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>I é falsa: o campo <b>TTL</b> é decrementado a cada salto e o pacote é descartado ao chegar a zero, justamente para evitar loops eternos. II é falsa: TTL não ordena nada; ordenação é papel do TCP.</p><p>III: no IPv4, roteadores podem fragmentar quando a MTU do próximo enlace é menor. IV: a máscara indica se o destino está na mesma sub-rede (entrega direta) ou se vai para o gateway.</p>"
+   "comentario": "<p>I é falsa: o campo <b>TTL</b> é decrementado a cada salto e o pacote é descartado ao chegar a zero, justamente para evitar loops eternos. II é falsa: TTL não ordena nada; ordenação é papel do TCP.</p><p>III: no IPv4, roteadores podem fragmentar quando a MTU do próximo enlace é menor. IV: a máscara indica se o destino está na mesma sub-rede (entrega direta) ou se vai para o gateway.</p>",
+   "video": {
+    "titulo": "Curso de Redes – estrutura de um pacote IPv4",
+    "url": "https://www.youtube.com/watch?v=QFoRk55J8_Y"
+   }
   },
   {
    "id": "2021-SI-18",
@@ -1050,7 +1158,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Níveis do CMMI por estágios: 1 Inicial, 2 Gerenciado, 3 <b>Definido</b>, 4 Gerenciado quantitativamente, 5 Em otimização. Processos <b>bem caracterizados, descritos por padrões</b>, com ferramentas e métodos estabelecidos, são a marca do nível 3. Para o 4 seria preciso controle estatístico (métricas quantitativas).</p>"
+   "comentario": "<p>Níveis do CMMI por estágios: 1 Inicial, 2 Gerenciado, 3 <b>Definido</b>, 4 Gerenciado quantitativamente, 5 Em otimização. Processos <b>bem caracterizados, descritos por padrões</b>, com ferramentas e métodos estabelecidos, são a marca do nível 3. Para o 4 seria preciso controle estatístico (métricas quantitativas).</p>",
+   "video": {
+    "titulo": "Entenda CMMI e CMM em menos de 10 minutos",
+    "url": "https://www.youtube.com/watch?v=lFrsy6sPVic"
+   }
   },
   {
    "id": "2021-SI-20",
@@ -1089,7 +1201,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>II: em <code>cabeça :- corpo</code>, a conclusão fica na cabeça. III: dois filhos do mesmo pai Z são irmãos por parte de pai.</p><p>I: uma consulta com variável não \"retorna verdadeiro\"; ela devolve a <b>instanciação</b> X = luiz. IV: os argumentos estão invertidos; o correto seria <code>avo_materno(X,Y) :- pai(X,Z), mae(Z,Y)</code>.</p>"
+   "comentario": "<p>II: em <code>cabeça :- corpo</code>, a conclusão fica na cabeça. III: dois filhos do mesmo pai Z são irmãos por parte de pai.</p><p>I: uma consulta com variável não \"retorna verdadeiro\"; ela devolve a <b>instanciação</b> X = luiz. IV: os argumentos estão invertidos; o correto seria <code>avo_materno(X,Y) :- pai(X,Z), mae(Z,Y)</code>.</p>",
+   "video": {
+    "titulo": "Introdução ao Prolog – fatos e regras",
+    "url": "https://www.youtube.com/watch?v=eBskJllohh0"
+   }
   },
   {
    "id": "2021-SI-22",
@@ -1128,7 +1244,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>II é a falsa: a EAP decompõe o escopo em pacotes de trabalho; quem atribui <b>responsabilidades</b> é a matriz de responsabilidades (RACI), criada depois, como diz IV. I e III descrevem o termo de abertura e o papel do gerente.</p>"
+   "comentario": "<p>II é a falsa: a EAP decompõe o escopo em pacotes de trabalho; quem atribui <b>responsabilidades</b> é a matriz de responsabilidades (RACI), criada depois, como diz IV. I e III descrevem o termo de abertura e o papel do gerente.</p>",
+   "video": {
+    "titulo": "EAP – Estrutura Analítica do Projeto",
+    "url": "https://www.youtube.com/watch?v=ooJTRYsjfCg"
+   }
   },
   {
    "id": "2021-SI-23",
@@ -1167,7 +1287,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Leia de dentro para fora: carros vermelhos (101, 102) → reservas desses carros (motoristas 22, 31, 64) → nomes: José, Antônio e Marilda. Só B usa <code>IN</code> nos dois níveis.</p><p>A e C (idênticas no caderno) trazem quem reservou carro <em>não</em> vermelho; D nega duas vezes; E usa tabelas que nem existem no esquema.</p>"
+   "comentario": "<p>Leia de dentro para fora: carros vermelhos (101, 102) → reservas desses carros (motoristas 22, 31, 64) → nomes: José, Antônio e Marilda. Só B usa <code>IN</code> nos dois níveis.</p><p>A e C (idênticas no caderno) trazem quem reservou carro <em>não</em> vermelho; D nega duas vezes; E usa tabelas que nem existem no esquema.</p>",
+   "video": {
+    "titulo": "O que são subconsultas SQL (subqueries)",
+    "url": "https://www.youtube.com/watch?v=2qCLpE1NZ8c"
+   }
   },
   {
    "id": "2021-SI-24",
@@ -1206,7 +1330,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>x = dias de Manaus, y = dias do Sul, em milhares de unidades. Cada tipo de dispositivo deve <b>atingir pelo menos</b> a demanda: 8x + 2y ≥ 16 (desktops), x + y ≥ 6 (notebooks), 2x + 7y ≥ 28 (netbooks). Minimizar custo com restrições \"≤\" daria a solução trivial x = y = 0.</p>"
+   "comentario": "<p>x = dias de Manaus, y = dias do Sul, em milhares de unidades. Cada tipo de dispositivo deve <b>atingir pelo menos</b> a demanda: 8x + 2y ≥ 16 (desktops), x + y ≥ 6 (notebooks), 2x + 7y ≥ 28 (netbooks). Minimizar custo com restrições \"≤\" daria a solução trivial x = y = 0.</p>",
+   "video": {
+    "titulo": "Programação linear: introdução",
+    "url": "https://www.youtube.com/watch?v=Pi_ZnVd-96Q"
+   }
   },
   {
    "id": "2021-SI-25",
@@ -1245,7 +1373,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>I é a única falsa: integridade é garantir que a informação <b>não foi alterada indevidamente</b>; acessibilidade é disponibilidade. As demais definem corretamente disponibilidade, confidencialidade, legalidade e autenticidade.</p>"
+   "comentario": "<p>I é a única falsa: integridade é garantir que a informação <b>não foi alterada indevidamente</b>; acessibilidade é disponibilidade. As demais definem corretamente disponibilidade, confidencialidade, legalidade e autenticidade.</p>",
+   "video": {
+    "titulo": "Pilares da segurança da informação",
+    "url": "https://www.youtube.com/watch?v=cRvr1GUcGL0"
+   }
   },
   {
    "id": "2021-SI-26",
@@ -1284,7 +1416,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>III é a pegadinha: velocidade exige processamento com <b>baixa</b> latência (perto do tempo real), justamente porque o dado perde valor rápido. As demais descrevem volume, variedade e veracidade.</p>"
+   "comentario": "<p>III é a pegadinha: velocidade exige processamento com <b>baixa</b> latência (perto do tempo real), justamente porque o dado perde valor rápido. As demais descrevem volume, variedade e veracidade.</p>",
+   "video": {
+    "titulo": "Big Data: volume, velocidade, variedade, veracidade e valor",
+    "url": "https://www.youtube.com/watch?v=8ypjld2ZGGE"
+   }
   },
   {
    "id": "2021-SI-27",
@@ -1323,7 +1459,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>7 200 transações / 3 600 s = 2 transações/s. Cada uma faz 4,5 I/Os, então o disco atende 2 × 4,5 = <b>9 operações por segundo</b> (o \"throughput do disco\" do gabarito). Utilização = 9 × 0,020 s = 0,18 s ocupados por segundo = <b>18%</b> (lei da utilização: U = X · S).</p>"
+   "comentario": "<p>7 200 transações / 3 600 s = 2 transações/s. Cada uma faz 4,5 I/Os, então o disco atende 2 × 4,5 = <b>9 operações por segundo</b> (o \"throughput do disco\" do gabarito). Utilização = 9 × 0,020 s = 0,18 s ocupados por segundo = <b>18%</b> (lei da utilização: U = X · S).</p>",
+   "video": {
+    "titulo": "Entendendo computação: discos magnéticos",
+    "url": "https://www.youtube.com/watch?v=nuBwH1kNZkM"
+   }
   },
   {
    "id": "2021-SI-29",
@@ -1362,7 +1502,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>Participação total = mínimo 1; parcial = mínimo 0. I, II e III aplicam isso corretamente.</p><p>IV se contradiz: se uma consulta pudesse ser agendada para <em>vários</em> pacientes, a razão seria N:N. Como cada consulta pertence a um único paciente, é 1:N, mas a justificativa dada está errada.</p>"
+   "comentario": "<p>Participação total = mínimo 1; parcial = mínimo 0. I, II e III aplicam isso corretamente.</p><p>IV se contradiz: se uma consulta pudesse ser agendada para <em>vários</em> pacientes, a razão seria N:N. Como cada consulta pertence a um único paciente, é 1:N, mas a justificativa dada está errada.</p>",
+   "video": {
+    "titulo": "Chave primária, chave estrangeira e cardinalidade",
+    "url": "https://www.youtube.com/watch?v=rfR3dUumo0U"
+   }
   },
   {
    "id": "2021-SI-30",
@@ -1401,7 +1545,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Componentes clássicos: <b>base de conhecimento</b> (fatos e regras do domínio, não regras gramaticais), <b>motor de inferência</b> (aplica as regras e heurísticas para chegar a conclusões) e interface com o usuário. Só E descreve corretamente um componente.</p>"
+   "comentario": "<p>Componentes clássicos: <b>base de conhecimento</b> (fatos e regras do domínio, não regras gramaticais), <b>motor de inferência</b> (aplica as regras e heurísticas para chegar a conclusões) e interface com o usuário. Só E descreve corretamente um componente.</p>",
+   "video": {
+    "titulo": "Introdução a sistemas especialistas",
+    "url": "https://www.youtube.com/watch?v=jJwzquqB53I"
+   }
   },
   {
    "id": "2017-CC-10",
@@ -1440,7 +1588,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>I é verdadeira: Observer resolve \"um objeto muda e vários dependentes são notificados\", e novos observadores entram sem alterar o sujeito.</p><p>II é falsa: Observer é um padrão de <b>projeto</b> do tipo publicar/assinar, não a realização do <b>estilo arquitetural</b> cliente-servidor (em que o cliente é quem requisita).</p>"
+   "comentario": "<p>I é verdadeira: Observer resolve \"um objeto muda e vários dependentes são notificados\", e novos observadores entram sem alterar o sujeito.</p><p>II é falsa: Observer é um padrão de <b>projeto</b> do tipo publicar/assinar, não a realização do <b>estilo arquitetural</b> cliente-servidor (em que o cliente é quem requisita).</p>",
+   "video": {
+    "titulo": "Padrão Observer – teoria",
+    "url": "https://www.youtube.com/watch?v=iMV1aHaijhQ"
+   }
   },
   {
    "id": "2017-CC-11",
@@ -1479,7 +1631,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Privado: só a própria classe (qualquer método dela). Protegido: a classe e as subclasses. Público: todos. A e B dão acesso de subclasse a privado; C restringe o público; D impede a própria classe de ver seus privados.</p>"
+   "comentario": "<p>Privado: só a própria classe (qualquer método dela). Protegido: a classe e as subclasses. Público: todos. A e B dão acesso de subclasse a privado; C restringe o público; D impede a própria classe de ver seus privados.</p>",
+   "video": {
+    "titulo": "Encapsulamento na orientação a objetos",
+    "url": "https://www.youtube.com/watch?v=G_K8xOQhptU"
+   }
   },
   {
    "id": "2017-CC-12",
@@ -1518,7 +1674,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>I: 2⁸ = 256 endereços. II: 2 024 precisa de 11 bits, então não cabe numa célula de 8 bits. III é falsa: o registrador de dados transfere uma célula inteira por vez; sua largura acompanha a largura da memória.</p>"
+   "comentario": "<p>I: 2⁸ = 256 endereços. II: 2 024 precisa de 11 bits, então não cabe numa célula de 8 bits. III é falsa: o registrador de dados transfere uma célula inteira por vez; sua largura acompanha a largura da memória.</p>",
+   "video": {
+    "titulo": "Hierarquia de memória: cache e localidade",
+    "url": "https://www.youtube.com/watch?v=1WGq74ptXGw"
+   }
   },
   {
    "id": "2017-CC-14",
@@ -1557,7 +1717,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>R1 (igualdade) é a equivalência básica. R4 também: a + a é par; a simetria é óbvia; se a + b e b + c são pares, a, b e c têm a mesma paridade, logo a + c é par. R2 não é simétrica (2 ≤ 3, mas 3 ≰ 2) e R3 nem é reflexiva.</p>"
+   "comentario": "<p>R1 (igualdade) é a equivalência básica. R4 também: a + a é par; a simetria é óbvia; se a + b e b + c são pares, a, b e c têm a mesma paridade, logo a + c é par. R2 não é simétrica (2 ≤ 3, mas 3 ≰ 2) e R3 nem é reflexiva.</p>",
+   "video": {
+    "titulo": "Matemática discreta – relação de equivalência",
+    "url": "https://www.youtube.com/watch?v=Z8n6WXvUmp4"
+   }
   },
   {
    "id": "2017-CC-15",
@@ -1596,7 +1760,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>I, III e IV são as correções clássicas para as falhas do WEP: chaves individuais negociadas por criptografia de chave pública, autenticação do AP por certificado e chaves maiores.</p><p>II é falsa segundo o gabarito: o ataque envenena a tabela ARP; um firewall que filtra tráfego entre clientes não impede o intruso de se passar pelo gateway.</p>"
+   "comentario": "<p>I, III e IV são as correções clássicas para as falhas do WEP: chaves individuais negociadas por criptografia de chave pública, autenticação do AP por certificado e chaves maiores.</p><p>II é falsa segundo o gabarito: o ataque envenena a tabela ARP; um firewall que filtra tráfego entre clientes não impede o intruso de se passar pelo gateway.</p>",
+   "video": {
+    "titulo": "Ataque man-in-the-middle com ARP poisoning",
+    "url": "https://www.youtube.com/watch?v=bRezU0A65sI"
+   }
   },
   {
    "id": "2017-CC-16",
@@ -1635,7 +1803,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>As três ideias vêm da literatura citada: pessoas são o elo mais fraco (Mitnick), segurança é um processo contínuo e a ética de quem tem acesso à informação é parte da proteção.</p>"
+   "comentario": "<p>As três ideias vêm da literatura citada: pessoas são o elo mais fraco (Mitnick), segurança é um processo contínuo e a ética de quem tem acesso à informação é parte da proteção.</p>",
+   "video": {
+    "titulo": "Engenharia social – a maior vulnerabilidade da empresa",
+    "url": "https://www.youtube.com/watch?v=xGIzj-elbfk"
+   }
   },
   {
    "id": "2017-CC-17",
@@ -1674,7 +1846,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>As duas são verdadeiras e II explica I: é por analisar o histórico de respostas e detectar padrões que o sistema consegue adaptar a trilha ao perfil do estudante.</p>"
+   "comentario": "<p>As duas são verdadeiras e II explica I: é por analisar o histórico de respostas e detectar padrões que o sistema consegue adaptar a trilha ao perfil do estudante.</p>",
+   "video": {
+    "titulo": "O papel da inteligência artificial na educação",
+    "url": "https://www.youtube.com/watch?v=sQvPMb6Cj_A"
+   }
   },
   {
    "id": "2017-CC-18",
@@ -1713,7 +1889,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>É o <b>Insertion Sort</b>. Para ordem crescente, deslocam-se para a direita os elementos <em>maiores</em> que a chave: condição <code>v[j] &gt; chave</code> e deslocamento <code>v[j+1] = v[j]</code>. As linhas 04, 07 e 13 já estão certas.</p>"
+   "comentario": "<p>É o <b>Insertion Sort</b>. Para ordem crescente, deslocam-se para a direita os elementos <em>maiores</em> que a chave: condição <code>v[j] &gt; chave</code> e deslocamento <code>v[j+1] = v[j]</code>. As linhas 04, 07 e 13 já estão certas.</p>",
+   "video": {
+    "titulo": "Insertion Sort (ordenação por inserção)",
+    "url": "https://www.youtube.com/watch?v=wwLthlkQZJM"
+   }
   },
   {
    "id": "2017-CC-19",
@@ -1752,7 +1932,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>\"Que compareceram a pelo menos uma seção\" pede só os pares existentes em Participacao: <b>INNER JOIN</b> nas duas junções. A faz produto cartesiano com Secao; B usa OR; C (LEFT) inclui deputados que nunca compareceram; D (RIGHT) inclui seções sem deputados.</p>"
+   "comentario": "<p>\"Que compareceram a pelo menos uma seção\" pede só os pares existentes em Participacao: <b>INNER JOIN</b> nas duas junções. A faz produto cartesiano com Secao; B usa OR; C (LEFT) inclui deputados que nunca compareceram; D (RIGHT) inclui seções sem deputados.</p>",
+   "video": {
+    "titulo": "Como usar JOIN (INNER, LEFT, RIGHT, FULL)",
+    "url": "https://www.youtube.com/watch?v=D_qz5yK2-_8"
+   }
   },
   {
    "id": "2017-CC-20",
@@ -1791,7 +1975,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>UDP não tem conexão, confirmação nem retransmissão: menor latência (I). TCP garante entrega e ordem (III). II é falsa: jogos de ação preferem UDP, pois um pacote de posição atrasado é pior que um perdido.</p>"
+   "comentario": "<p>UDP não tem conexão, confirmação nem retransmissão: menor latência (I). TCP garante entrega e ordem (III). II é falsa: jogos de ação preferem UDP, pois um pacote de posição atrasado é pior que um perdido.</p>",
+   "video": {
+    "titulo": "TCP, UDP e os protocolos da camada de transporte",
+    "url": "https://www.youtube.com/watch?v=Wo7GOmuN-og"
+   }
   },
   {
    "id": "2017-CC-21",
@@ -1830,7 +2018,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>A sentença trata de veículos elétricos (condição E) e diz que, para eles, \"é robô se for autônomo, caso contrário não é robô\": R ↔ A. Logo E → (R ↔ A) = P2.</p><p>P1 exigiria que todo autônomo fosse elétrico e robô. P3 é tautológica quando E é verdadeiro.</p>"
+   "comentario": "<p>A sentença trata de veículos elétricos (condição E) e diz que, para eles, \"é robô se for autônomo, caso contrário não é robô\": R ↔ A. Logo E → (R ↔ A) = P2.</p><p>P1 exigiria que todo autônomo fosse elétrico e robô. P3 é tautológica quando E é verdadeiro.</p>",
+   "video": {
+    "titulo": "Lógica matemática – proposições e operações lógicas",
+    "url": "https://www.youtube.com/watch?v=pU4I8sC-2WM"
+   }
   },
   {
    "id": "2017-CC-22",
@@ -1869,7 +2061,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>I é verdadeira: {1, 5, 10, 25, 50} é um sistema \"canônico\" e o guloso dá o ótimo (conferido por programação dinâmica até 500 centavos).</p><p>II é falsa: com moedas {1, 3, 4} e troco 6, o guloso usa 4+1+1 (3 moedas) e o ótimo é 3+3 (2 moedas).</p>"
+   "comentario": "<p>I é verdadeira: {1, 5, 10, 25, 50} é um sistema \"canônico\" e o guloso dá o ótimo (conferido por programação dinâmica até 500 centavos).</p><p>II é falsa: com moedas {1, 3, 4} e troco 6, o guloso usa 4+1+1 (3 moedas) e o ótimo é 3+3 (2 moedas).</p>",
+   "video": {
+    "titulo": "Algoritmos gulosos: seleção de atividades e Huffman",
+    "url": "https://www.youtube.com/watch?v=g0BQw0fjpI0"
+   }
   },
   {
    "id": "2017-CC-23",
@@ -1908,7 +2104,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Casar cada \"(\" com um \")\" exige contar sem limite; um autômato finito só tem memória finita (seus estados). Pelo lema do bombeamento a linguagem não é regular; é preciso autômato com pilha. II justifica I.</p>"
+   "comentario": "<p>Casar cada \"(\" com um \")\" exige contar sem limite; um autômato finito só tem memória finita (seus estados). Pelo lema do bombeamento a linguagem não é regular; é preciso autômato com pilha. II justifica I.</p>",
+   "video": {
+    "titulo": "Teoria da computação – autômatos finitos",
+    "url": "https://www.youtube.com/watch?v=Ql_WEx0KdJo"
+   }
   },
   {
    "id": "2017-CC-25",
@@ -1947,7 +2147,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>O número de chamadas cresce como φⁿ (I). O espaço é a profundidade máxima da pilha, n, ou seja, O(n) (II falsa). A versão iterativa guarda só os dois últimos termos: O(n) de tempo e O(1) de espaço (III).</p>"
+   "comentario": "<p>O número de chamadas cresce como φⁿ (I). O espaço é a profundidade máxima da pilha, n, ou seja, O(n) (II falsa). A versão iterativa guarda só os dois últimos termos: O(n) de tempo e O(1) de espaço (III).</p>",
+   "video": {
+    "titulo": "Árvore de recursão e teorema mestre",
+    "url": "https://www.youtube.com/watch?v=5VwN3n1S7ko"
+   }
   },
   {
    "id": "2017-CC-26",
@@ -1986,7 +2190,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>A <b>mediana</b> troca o pixel pelo valor central da vizinhança: extremos isolados são descartados e as bordas não borram. Média borra as bordas; Sobel e Laplaciano realçam bordas (e ruído); o mínimo remove só o \"sal\".</p>"
+   "comentario": "<p>A <b>mediana</b> troca o pixel pelo valor central da vizinhança: extremos isolados são descartados e as bordas não borram. Média borra as bordas; Sobel e Laplaciano realçam bordas (e ruído); o mínimo remove só o \"sal\".</p>",
+   "video": {
+    "titulo": "Filtro mediana para ruído sal e pimenta",
+    "url": "https://www.youtube.com/watch?v=fOJLn0lcwAA"
+   }
   },
   {
    "id": "2017-CC-27",
@@ -2025,7 +2233,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>No sombreamento constante cada face tem uma cor só: as faces ficam evidentes (III) e surgem as Bandas de Mach nas arestas (I). Phong é justamente bom em brilho especular (II falsa) e funciona com luz pontual em posição finita (IV falsa).</p>"
+   "comentario": "<p>No sombreamento constante cada face tem uma cor só: as faces ficam evidentes (III) e surgem as Bandas de Mach nas arestas (I). Phong é justamente bom em brilho especular (II falsa) e funciona com luz pontual em posição finita (IV falsa).</p>",
+   "video": {
+    "titulo": "Computação gráfica – modelo de iluminação de Phong",
+    "url": "https://www.youtube.com/watch?v=xGaYix3TUac"
+   }
   },
   {
    "id": "2017-CC-28",
@@ -2064,7 +2276,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>Sprints entregam incrementos (I) e o cliente, via Product Owner, prioriza o backlog no planejamento da Sprint (III). Programação em pares é prática do <b>XP</b>, não do Scrum (II falsa).</p>"
+   "comentario": "<p>Sprints entregam incrementos (I) e o cliente, via Product Owner, prioriza o backlog no planejamento da Sprint (III). Programação em pares é prática do <b>XP</b>, não do Scrum (II falsa).</p>",
+   "video": {
+    "titulo": "Os papéis do Scrum",
+    "url": "https://www.youtube.com/watch?v=9__bzr_lX88"
+   }
   },
   {
    "id": "2017-CC-29",
@@ -2103,7 +2319,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Simulando: FIFO tem <b>10</b> faltas e LRU tem <b>8</b>. Os desempenhos diferem (I falsa) e a própria simulação já mostra a diferença (II falsa). É a sequência clássica da anomalia de Belady.</p>"
+   "comentario": "<p>Simulando: FIFO tem <b>10</b> faltas e LRU tem <b>8</b>. Os desempenhos diferem (I falsa) e a própria simulação já mostra a diferença (II falsa). É a sequência clássica da anomalia de Belady.</p>",
+   "video": {
+    "titulo": "Algoritmos de substituição de páginas",
+    "url": "https://www.youtube.com/watch?v=mzlaMAV1-wg"
+   }
   },
   {
    "id": "2017-CC-30",
@@ -2142,7 +2362,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>A gramática tem a estrutura do \"else pendente\": o <code>d X</code> pode pertencer ao X interno ou ao externo. Como d ∈ FIRST(dX) e d ∈ FOLLOW(Y), a célula recebe duas regras; o conflito vem da <b>ambiguidade</b>, e nenhuma gramática ambígua é LL(1).</p>"
+   "comentario": "<p>A gramática tem a estrutura do \"else pendente\": o <code>d X</code> pode pertencer ao X interno ou ao externo. Como d ∈ FIRST(dX) e d ∈ FOLLOW(Y), a célula recebe duas regras; o conflito vem da <b>ambiguidade</b>, e nenhuma gramática ambígua é LL(1).</p>",
+   "video": {
+    "titulo": "Compiladores – analisador sintático LL(1)",
+    "url": "https://www.youtube.com/watch?v=yTgrbMkKk6M"
+   }
   },
   {
    "id": "2017-CC-31",
@@ -2181,7 +2405,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Para imprimir \"1\", t1 precisa ler y == 0, ou seja, t2 ainda não fez <code>y = 1</code>; nesse momento x já é 1 e t2 não imprimirá \"2\". Nunca os dois.</p><p>Se as duas atribuições ocorrerem antes dos dois testes, nada é impresso. Por isso: \"1\", ou \"2\", ou nada.</p>"
+   "comentario": "<p>Para imprimir \"1\", t1 precisa ler y == 0, ou seja, t2 ainda não fez <code>y = 1</code>; nesse momento x já é 1 e t2 não imprimirá \"2\". Nunca os dois.</p><p>Se as duas atribuições ocorrerem antes dos dois testes, nada é impresso. Por isso: \"1\", ou \"2\", ou nada.</p>",
+   "video": {
+    "titulo": "Threads: semelhanças e diferenças em relação a processos",
+    "url": "https://www.youtube.com/watch?v=ktCafgI8adg"
+   }
   },
   {
    "id": "2017-CC-32",
@@ -2220,7 +2448,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>B é a definição de <b>função do agente</b>: mapeia sequências de percepções em ações. São 2 posições × 2² situações de sujeira = 8 estados (A). C e D confundem percepção com resultado das ações. \"Fazer nada\" é uma ação, não uma percepção (E).</p>"
+   "comentario": "<p>B é a definição de <b>função do agente</b>: mapeia sequências de percepções em ações. São 2 posições × 2² situações de sujeira = 8 estados (A). C e D confundem percepção com resultado das ações. \"Fazer nada\" é uma ação, não uma percepção (E).</p>",
+   "video": {
+    "titulo": "Tipos de agentes inteligentes",
+    "url": "https://www.youtube.com/watch?v=VCOEKPx5pa8"
+   }
   },
   {
    "id": "2017-CC-33",
@@ -2259,7 +2491,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>A recorrência é T(n) = T(n/2) + n, não a do mergesort, T(n) = 2T(n/2) + n (I falsa). n cai pela metade a cada chamada: log n chamadas (II). G é chamada n + n/2 + … ≤ 2n vezes = O(n), que também é O(n log n) (III verdadeira, pois O é limite superior).</p>"
+   "comentario": "<p>A recorrência é T(n) = T(n/2) + n, não a do mergesort, T(n) = 2T(n/2) + n (I falsa). n cai pela metade a cada chamada: log n chamadas (II). G é chamada n + n/2 + … ≤ 2n vezes = O(n), que também é O(n log n) (III verdadeira, pois O é limite superior).</p>",
+   "video": {
+    "titulo": "Árvore de recursão e teorema mestre",
+    "url": "https://www.youtube.com/watch?v=5VwN3n1S7ko"
+   }
   },
   {
    "id": "2017-CC-34",
@@ -2298,7 +2534,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>FoneEleitor é multivalorado: a tabela viola a 1FN, e cada forma normal pressupõe a anterior (I). II e III mantêm o telefone multivalorado em alguma tabela; III ainda deixa NomePartido dependendo de Sigla. IV é falsa: Numero é chave, então todos os atributos dependem dele.</p>"
+   "comentario": "<p>FoneEleitor é multivalorado: a tabela viola a 1FN, e cada forma normal pressupõe a anterior (I). II e III mantêm o telefone multivalorado em alguma tabela; III ainda deixa NomePartido dependendo de Sigla. IV é falsa: Numero é chave, então todos os atributos dependem dele.</p>",
+   "video": {
+    "titulo": "Normalização de dados (1FN, 2FN, 3FN)",
+    "url": "https://www.youtube.com/watch?v=TOFZQ5wm1UI"
+   }
   },
   {
    "id": "2017-CC-35",
@@ -2337,7 +2577,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>T1 segura E1 e espera E2; T2 segura E2 e espera E1: espera circular. A prevenção clássica é uma <b>ordem global de alocação</b>. Tirar os cálculos do meio (B) só reduz a chance; semáforos sozinhos (D) são o que causa o bloqueio.</p>"
+   "comentario": "<p>T1 segura E1 e espera E2; T2 segura E2 e espera E1: espera circular. A prevenção clássica é uma <b>ordem global de alocação</b>. Tirar os cálculos do meio (B) só reduz a chance; semáforos sozinhos (D) são o que causa o bloqueio.</p>",
+   "video": {
+    "titulo": "Como caracterizar deadlocks? – sistemas operacionais",
+    "url": "https://www.youtube.com/watch?v=UwC9csiMU0E"
+   }
   },
   {
    "id": "2014-CC-10",
@@ -2376,7 +2620,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>II é falsa: dados históricos só servem para projetos parecidos. III é falsa pela <b>Lei de Brooks</b>: adicionar pessoas a um projeto atrasado o atrasa ainda mais.</p>"
+   "comentario": "<p>II é falsa: dados históricos só servem para projetos parecidos. III é falsa pela <b>Lei de Brooks</b>: adicionar pessoas a um projeto atrasado o atrasa ainda mais.</p>",
+   "video": {
+    "titulo": "Cálculo do caminho crítico (CPM)",
+    "url": "https://www.youtube.com/watch?v=RsXrQOGLT0Y"
+   }
   },
   {
    "id": "2014-CC-12",
@@ -2415,7 +2663,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>O algoritmo 2 é o <b>método de Horner</b>: O(n) sempre. O algoritmo 1 recalcula cada potência: no pior caso 1 + 2 + … + n multiplicações, O(n²). Logo I é falsa. No melhor caso do algoritmo 1 (só aₙ ≠ 0) ele faz cerca de 2n operações: O(n), como o 2. II é verdadeira.</p>"
+   "comentario": "<p>O algoritmo 2 é o <b>método de Horner</b>: O(n) sempre. O algoritmo 1 recalcula cada potência: no pior caso 1 + 2 + … + n multiplicações, O(n²). Logo I é falsa. No melhor caso do algoritmo 1 (só aₙ ≠ 0) ele faz cerca de 2n operações: O(n), como o 2. II é verdadeira.</p>",
+   "video": {
+    "titulo": "Notação Big O e complexidade de algoritmos",
+    "url": "https://www.youtube.com/watch?v=X_6LTVkymVM"
+   }
   },
   {
    "id": "2014-CC-14",
@@ -2454,7 +2706,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>I: para x = 50 não há y em U maior. II: para x = 0 não há natural menor. III: para x = 10 não há y em U com 10 &gt; y; contraexemplo válido.</p>"
+   "comentario": "<p>I: para x = 50 não há y em U maior. II: para x = 0 não há natural menor. III: para x = 10 não há y em U com 10 &gt; y; contraexemplo válido.</p>",
+   "video": {
+    "titulo": "Predicados e quantificadores",
+    "url": "https://www.youtube.com/watch?v=hyyM1bToHTc"
+   }
   },
   {
    "id": "2014-CC-15",
@@ -2493,7 +2749,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>L(R1) = cadeias que começam com a; L(R2) = que começam com b. União de regulares é regular, então existe AFD (C); a união é \"toda cadeia não vazia\". A interseção é vazia (D) e bastam 2 estados (E).</p>"
+   "comentario": "<p>L(R1) = cadeias que começam com a; L(R2) = que começam com b. União de regulares é regular, então existe AFD (C); a união é \"toda cadeia não vazia\". A interseção é vazia (D) e bastam 2 estados (E).</p>",
+   "video": {
+    "titulo": "Equivalência entre expressões regulares e autômatos finitos",
+    "url": "https://www.youtube.com/watch?v=-sVLQJaHkXo"
+   }
   },
   {
    "id": "2014-CC-16",
@@ -2532,7 +2792,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>Rastreando: [2, 3, 4] → pop → [2, 3] → push 2 → [2, 3, 2]; a = 2 + 3 = 5; push 5 → [2, 5]; a += pop → 10. Com <code>a += a</code> também dá 10 (II). push e pop são O(1) (I). III é falsa: a struct inteira foi alocada com <code>malloc</code> e precisa de <code>free</code>.</p><p>Observação: o <code>return pilha;</code> do caderno é um erro de digitação da prova (deveria ser <code>return p;</code>); a questão não foi anulada.</p>"
+   "comentario": "<p>Rastreando: [2, 3, 4] → pop → [2, 3] → push 2 → [2, 3, 2]; a = 2 + 3 = 5; push 5 → [2, 5]; a += pop → 10. Com <code>a += a</code> também dá 10 (II). push e pop são O(1) (I). III é falsa: a struct inteira foi alocada com <code>malloc</code> e precisa de <code>free</code>.</p><p>Observação: o <code>return pilha;</code> do caderno é um erro de digitação da prova (deveria ser <code>return p;</code>); a questão não foi anulada.</p>",
+   "video": {
+    "titulo": "Estrutura de dados com Python: pilhas e filas",
+    "url": "https://www.youtube.com/watch?v=Ey_hbtTY2no"
+   }
   },
   {
    "id": "2014-CC-17",
@@ -2571,7 +2835,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>I e III têm palavras absolutas (\"assegura\", \"único\"): processos precisam ser adaptados ao contexto e cada fator de qualidade depende de vários atributos internos. II define controle de qualidade por revisão e inspeção.</p>"
+   "comentario": "<p>I e III têm palavras absolutas (\"assegura\", \"único\"): processos precisam ser adaptados ao contexto e cada fator de qualidade depende de vários atributos internos. II define controle de qualidade por revisão e inspeção.</p>",
+   "video": {
+    "titulo": "Entenda CMMI e CMM em menos de 10 minutos",
+    "url": "https://www.youtube.com/watch?v=lFrsy6sPVic"
+   }
   },
   {
    "id": "2014-CC-18",
@@ -2610,7 +2878,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>As três são aplicações clássicas: classificação (fraude) com árvores de decisão, análise de risco com redes neurais e diagnóstico com sistemas especialistas baseados em regras.</p>"
+   "comentario": "<p>As três são aplicações clássicas: classificação (fraude) com árvores de decisão, análise de risco com redes neurais e diagnóstico com sistemas especialistas baseados em regras.</p>",
+   "video": {
+    "titulo": "Árvore de decisão – como funciona (machine learning)",
+    "url": "https://www.youtube.com/watch?v=W7MfsE5av0c"
+   }
   },
   {
    "id": "2014-CC-21",
@@ -2649,7 +2921,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>LockA é a <b>alternância estrita</b>: garante exclusão mútua (III), mas não progresso; se a thread da vez não quiser entrar, a outra fica bloqueada (I falsa). LockB não bloqueia ninguém, há progresso (II), mas com dois processadores desabilitar interrupções num deles não impede a thread do outro de entrar (IV falsa).</p>"
+   "comentario": "<p>LockA é a <b>alternância estrita</b>: garante exclusão mútua (III), mas não progresso; se a thread da vez não quiser entrar, a outra fica bloqueada (I falsa). LockB não bloqueia ninguém, há progresso (II), mas com dois processadores desabilitar interrupções num deles não impede a thread do outro de entrar (IV falsa).</p>",
+   "video": {
+    "titulo": "SO – condições de corrida, região crítica e exclusão mútua",
+    "url": "https://www.youtube.com/watch?v=vzSd-AM14x4"
+   }
   },
   {
    "id": "2014-CC-22",
@@ -2688,7 +2964,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Passar por todas as etapas exatamente uma vez, começando e terminando no mesmo estado, minimizando os custos de transição, é o <b>caixeiro-viajante</b> (NP-difícil): não se conhece algoritmo polinomial. Ordenação, coloração, árvore geradora mínima e Dijkstra resolvem outros problemas.</p>"
+   "comentario": "<p>Passar por todas as etapas exatamente uma vez, começando e terminando no mesmo estado, minimizando os custos de transição, é o <b>caixeiro-viajante</b> (NP-difícil): não se conhece algoritmo polinomial. Ordenação, coloração, árvore geradora mínima e Dijkstra resolvem outros problemas.</p>",
+   "video": {
+    "titulo": "P vs NP: a questão que pode mudar a computação",
+    "url": "https://www.youtube.com/watch?v=GSJ58-Mz0bI"
+   }
   },
   {
    "id": "2014-CC-23",
@@ -2727,7 +3007,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>recursao(27) = recursao(recursao(9)) = recursao(18) = recursao(recursao(6)) = recursao(12) = recursao(recursao(4)) = recursao(8) = 16. Armadilha: parar em recursao(9) = 18.</p>"
+   "comentario": "<p>recursao(27) = recursao(recursao(9)) = recursao(18) = recursao(recursao(6)) = recursao(12) = recursao(recursao(4)) = recursao(8) = 16. Armadilha: parar em recursao(9) = 18.</p>",
+   "video": {
+    "titulo": "Estrutura de dados em Python – recursividade",
+    "url": "https://www.youtube.com/watch?v=R0opvtDycNE"
+   }
   },
   {
    "id": "2014-CC-24",
@@ -2766,7 +3050,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>Compare UF com UF e use NOT IN na subconsulta. A devolve a sigla e compara nome com sigla; B e E trazem estados que <em>têm</em> fornecedor; D compara nome com sigla.</p>"
+   "comentario": "<p>Compare UF com UF e use NOT IN na subconsulta. A devolve a sigla e compara nome com sigla; B e E trazem estados que <em>têm</em> fornecedor; D compara nome com sigla.</p>",
+   "video": {
+    "titulo": "O que são subconsultas SQL (subqueries)",
+    "url": "https://www.youtube.com/watch?v=2qCLpE1NZ8c"
+   }
   },
   {
    "id": "2014-CC-25",
@@ -2805,7 +3093,11 @@
     }
    ],
    "gabarito": "D",
-   "comentario": "<p>D: <code>extends</code> opcional com um único id (sem herança múltipla) e <code>implements</code> opcional seguido de uma lista de ids separados por vírgula. B permite vários extends; A e C exigem o id solto; C aceita vírgulas soltas; E torna implements obrigatório.</p>"
+   "comentario": "<p>D: <code>extends</code> opcional com um único id (sem herança múltipla) e <code>implements</code> opcional seguido de uma lista de ids separados por vírgula. B permite vários extends; A e C exigem o id solto; C aceita vírgulas soltas; E torna implements obrigatório.</p>",
+   "video": {
+    "titulo": "Gramáticas livres de contexto (GLC)",
+    "url": "https://www.youtube.com/watch?v=MRXBDKeoVJI"
+   }
   },
   {
    "id": "2014-CC-28",
@@ -2844,7 +3136,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Se um NP-completo X se reduz polinomialmente a um problema de P, X está em P; como todo problema de NP se reduz a X, todo NP-completo teria algoritmo polinomial (II), o que significa P = NP (I). II justifica I.</p>"
+   "comentario": "<p>Se um NP-completo X se reduz polinomialmente a um problema de P, X está em P; como todo problema de NP se reduz a X, todo NP-completo teria algoritmo polinomial (II), o que significa P = NP (I). II justifica I.</p>",
+   "video": {
+    "titulo": "P vs NP: a questão que pode mudar a computação",
+    "url": "https://www.youtube.com/watch?v=GSJ58-Mz0bI"
+   }
   },
   {
    "id": "2014-CC-30",
@@ -2883,7 +3179,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>É o algoritmo de <b>Kruskal</b> (arestas em ordem crescente + união de conjuntos), que encontra a árvore geradora mínima em tempo polinomial. Dijkstra dá caminhos mínimos a partir de uma origem (D); criar D gera n(n+1)/2 pares, O(n²), não O(n!) (E).</p>"
+   "comentario": "<p>É o algoritmo de <b>Kruskal</b> (arestas em ordem crescente + união de conjuntos), que encontra a árvore geradora mínima em tempo polinomial. Dijkstra dá caminhos mínimos a partir de uma origem (D); criar D gera n(n+1)/2 pares, O(n²), não O(n!) (E).</p>",
+   "video": {
+    "titulo": "Árvores geradoras mínimas – algoritmo de Kruskal",
+    "url": "https://www.youtube.com/watch?v=vGYD1FxMIKI"
+   }
   },
   {
    "id": "2014-CC-33",
@@ -2922,7 +3222,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>O conflito é o R1, escrito por <code>add</code> e lido por <code>mul</code> e <code>sub</code>. Sem forwarding, com escrita no 1º meio-ciclo e leitura no 2º, o leitor precisa estar pelo menos 3 instruções depois do escritor.</p><p>II deixa add, or, and, mul, sub: mul fica 3 posições depois de add. I e III deixam distância 2 (seriam necessários 2 nops).</p>"
+   "comentario": "<p>O conflito é o R1, escrito por <code>add</code> e lido por <code>mul</code> e <code>sub</code>. Sem forwarding, com escrita no 1º meio-ciclo e leitura no 2º, o leitor precisa estar pelo menos 3 instruções depois do escritor.</p><p>II deixa add, or, and, mul, sub: mul fica 3 posições depois de add. I e III deixam distância 2 (seriam necessários 2 nops).</p>",
+   "video": {
+    "titulo": "Pipeline de instruções: estágios, hazards e forwarding",
+    "url": "https://www.youtube.com/watch?v=QnpDwbLHOfY"
+   }
   },
   {
    "id": "2014-CC-34",
@@ -2961,7 +3265,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Quem sincroniza é <code>vez</code>, que força alternância estrita: o léxico grava um, o sintático consome um. O buffer nunca tem mais de um item e cont é redundante; retirá-lo não causa erro (I falsa). Pelo mesmo motivo, cont não controla a seção crítica (II falsa).</p>"
+   "comentario": "<p>Quem sincroniza é <code>vez</code>, que força alternância estrita: o léxico grava um, o sintático consome um. O buffer nunca tem mais de um item e cont é redundante; retirá-lo não causa erro (I falsa). Pelo mesmo motivo, cont não controla a seção crítica (II falsa).</p>",
+   "video": {
+    "titulo": "Semáforos no problema do produtor e consumidor",
+    "url": "https://www.youtube.com/watch?v=9cqdE9vjQ6E"
+   }
   },
   {
    "id": "2021-CC-16",
@@ -3000,7 +3308,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Siga o circuito da entrada para a saída: X2 é invertido (X2’) e entra na porta E com X3: <b>X3 . X2’</b>. X1 é invertido (X1’) e entra na porta OU junto com a saída da porta E: <b>X3 . X2’ + X1’</b>. A saída da OU passa pelo último inversor: <b>(X3 . X2’ + X1’)’</b>, que é a alternativa B.</p><p>A esquece o inversor final; C e D invertem X3 . X2 em vez de só X2; E nega a porta E inteira.</p>"
+   "comentario": "<p>Siga o circuito da entrada para a saída: X2 é invertido (X2’) e entra na porta E com X3: <b>X3 . X2’</b>. X1 é invertido (X1’) e entra na porta OU junto com a saída da porta E: <b>X3 . X2’ + X1’</b>. A saída da OU passa pelo último inversor: <b>(X3 . X2’ + X1’)’</b>, que é a alternativa B.</p><p>A esquece o inversor final; C e D invertem X3 . X2 em vez de só X2; E nega a porta E inteira.</p>",
+   "video": {
+    "titulo": "Expressões booleanas, circuitos lógicos e tabela verdade",
+    "url": "https://www.youtube.com/watch?v=aYVz0l3ZMWc"
+   }
   },
   {
    "id": "2021-CC-31",
@@ -3039,7 +3351,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Simulando: no 1º movimento, q0 lê o primeiro 1, escreve B e vai para q5. Assim, após 4 movimentos a fita já é <b>10011</b> (I falsa). Do 2º ao 6º movimento, q5 anda até o fim; no 7º lê B e volta (q6); no 8º apaga o último 1 (q7). A fita fica <b>1001</b> (II verdadeira).</p><p>A máquina repete o processo apagando as pontas iguais até a fita esvaziar e para em qf (III). Palíndromos de comprimento par formam uma linguagem livre de contexto, reconhecida por autômato com pilha (IV).</p>"
+   "comentario": "<p>Simulando: no 1º movimento, q0 lê o primeiro 1, escreve B e vai para q5. Assim, após 4 movimentos a fita já é <b>10011</b> (I falsa). Do 2º ao 6º movimento, q5 anda até o fim; no 7º lê B e volta (q6); no 8º apaga o último 1 (q7). A fita fica <b>1001</b> (II verdadeira).</p><p>A máquina repete o processo apagando as pontas iguais até a fita esvaziar e para em qf (III). Palíndromos de comprimento par formam uma linguagem livre de contexto, reconhecida por autômato com pilha (IV).</p>",
+   "video": {
+    "titulo": "Máquinas de Turing e o problema da parada",
+    "url": "https://www.youtube.com/watch?v=Ccla4Mnoo9s"
+   }
   },
   {
    "id": "2021-CC-34",
@@ -3078,7 +3394,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p><b>1ª iteração:</b> retira D (custo 0) e relaxa seus arcos: A = 5, B = 9, E = 5, F = 1.</p><p><b>2ª iteração:</b> retira o menor da fila, F (1), e relaxa F→E (1 + 3 = 4 &lt; 5) e F→G (1 + 1 = 2). C continua sem caminho (−1). Resultado: A 5, B 9, C −1, D 0, E 4, F 1, G 2.</p><p>B para após a 1ª iteração; A, D e E já avançam além da 2ª.</p>"
+   "comentario": "<p><b>1ª iteração:</b> retira D (custo 0) e relaxa seus arcos: A = 5, B = 9, E = 5, F = 1.</p><p><b>2ª iteração:</b> retira o menor da fila, F (1), e relaxa F→E (1 + 3 = 4 &lt; 5) e F→G (1 + 1 = 2). C continua sem caminho (−1). Resultado: A 5, B 9, C −1, D 0, E 4, F 1, G 2.</p><p>B para após a 1ª iteração; A, D e E já avançam além da 2ª.</p>",
+   "video": {
+    "titulo": "Algoritmo de Dijkstra",
+    "url": "https://www.youtube.com/watch?v=hsJBilAiZDY"
+   }
   },
   {
    "id": "2017-CC-09",
@@ -3117,7 +3437,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>O 3 entra à esquerda do 4. Subindo: o nó 5 fica com alturas 2 e 1 (ok), mas o nó <b>10</b> fica com subárvore esquerda de altura 3 (5–4–3) e direita de altura 1 (11): diferença 2. É um caso esquerda-esquerda, resolvido com <b>rotação simples à direita</b> em 10: o 5 sobe, o 10 vira filho direito do 5 e o 8 passa a ser filho esquerdo do 10.</p><p>Resultado: 13(5(4(3), 10(8, 11)), 15(·, 16)), que é a alternativa A. B não rebalanceia; C, D e E mudam a raiz ou violam a ordem da árvore de busca (em C, o 11 fica à esquerda do 10).</p>"
+   "comentario": "<p>O 3 entra à esquerda do 4. Subindo: o nó 5 fica com alturas 2 e 1 (ok), mas o nó <b>10</b> fica com subárvore esquerda de altura 3 (5–4–3) e direita de altura 1 (11): diferença 2. É um caso esquerda-esquerda, resolvido com <b>rotação simples à direita</b> em 10: o 5 sobe, o 10 vira filho direito do 5 e o 8 passa a ser filho esquerdo do 10.</p><p>Resultado: 13(5(4(3), 10(8, 11)), 15(·, 16)), que é a alternativa A. B não rebalanceia; C, D e E mudam a raiz ou violam a ordem da árvore de busca (em C, o 11 fica à esquerda do 10).</p>",
+   "video": {
+    "titulo": "Árvore AVL – tipos de rotações e casos",
+    "url": "https://www.youtube.com/watch?v=CANkMa-fdWU"
+   }
   },
   {
    "id": "2017-CC-13",
@@ -3156,7 +3480,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>O circuito calcula <b>S = Ta·Tb + Tb·Tc</b> (os pontos pretos são só conexões, não inversores). Lendo o diagrama de tempo em cada intervalo (Ta, Tb, Tc):</p>\n<div class=\"tw\"><table class=\"t\"><tr><th></th><th>t₁</th><th>t₂</th><th>t₃</th><th>t₄</th><th>t₅</th><th>t₆</th><th>t₇</th><th>t₈</th></tr><tr><th>Ta</th><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><th>Tb</th><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><th>Tc</th><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><th>S</th><td><b>1</b></td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>1</b></td><td>0</td><td><b>1</b></td></tr></table></div><p>O sistema é acionado em t₁, t₆ e t₈.</p>"
+   "comentario": "<p>O circuito calcula <b>S = Ta·Tb + Tb·Tc</b> (os pontos pretos são só conexões, não inversores). Lendo o diagrama de tempo em cada intervalo (Ta, Tb, Tc):</p>\n<div class=\"tw\"><table class=\"t\"><tr><th></th><th>t₁</th><th>t₂</th><th>t₃</th><th>t₄</th><th>t₅</th><th>t₆</th><th>t₇</th><th>t₈</th></tr><tr><th>Ta</th><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><th>Tb</th><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td></tr><tr><th>Tc</th><td>1</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td><td>0</td><td>0</td></tr><tr><th>S</th><td><b>1</b></td><td>0</td><td>0</td><td>0</td><td>0</td><td><b>1</b></td><td>0</td><td><b>1</b></td></tr></table></div><p>O sistema é acionado em t₁, t₆ e t₈.</p>",
+   "video": {
+    "titulo": "Expressões booleanas, circuitos lógicos e tabela verdade",
+    "url": "https://www.youtube.com/watch?v=aYVz0l3ZMWc"
+   }
   },
   {
    "id": "2017-CC-24",
@@ -3195,7 +3523,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>I: todos os pesos são não negativos, condição para Dijkstra funcionar. III: é a <b>subestrutura ótima</b> dos caminhos mínimos (se houvesse atalho de w a k, o caminho de i a k não seria mínimo).</p><p>II vale <em>neste grafo</em>: o menor tempo de i a k é 7 (i–2–…–j–2–k, por cima de w ou pelo outro nó interno), e as arestas que o Kruskal escolhe (todas as de peso 1 e as de peso 2 que não fecham ciclo) formam exatamente um desses caminhos de custo 7. Em geral, uma árvore geradora mínima <b>não</b> garante caminhos mínimos; aqui é uma propriedade do grafo dado.</p>"
+   "comentario": "<p>I: todos os pesos são não negativos, condição para Dijkstra funcionar. III: é a <b>subestrutura ótima</b> dos caminhos mínimos (se houvesse atalho de w a k, o caminho de i a k não seria mínimo).</p><p>II vale <em>neste grafo</em>: o menor tempo de i a k é 7 (i–2–…–j–2–k, por cima de w ou pelo outro nó interno), e as arestas que o Kruskal escolhe (todas as de peso 1 e as de peso 2 que não fecham ciclo) formam exatamente um desses caminhos de custo 7. Em geral, uma árvore geradora mínima <b>não</b> garante caminhos mínimos; aqui é uma propriedade do grafo dado.</p>",
+   "video": {
+    "titulo": "Algoritmo de Dijkstra",
+    "url": "https://www.youtube.com/watch?v=hsJBilAiZDY"
+   }
   },
   {
    "id": "2014-CC-11",
@@ -3234,7 +3566,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Quadro de 1 KB = 2¹⁰ bytes → deslocamento de 10 bits. O número do quadro tem 4 bits. Endereço físico = 4 + 10 = <b>14 bits</b> (I falsa).</p><p>Endereço lógico de 13 bits: 3 bits de página + 10 de deslocamento. 0110000000110 → página <b>011 = 3</b>, que é válida (BV = 1): a tradução funciona, sem exceção (III falsa). Paginação elimina a fragmentação externa, pois qualquer quadro livre serve (II verdadeira).</p>"
+   "comentario": "<p>Quadro de 1 KB = 2¹⁰ bytes → deslocamento de 10 bits. O número do quadro tem 4 bits. Endereço físico = 4 + 10 = <b>14 bits</b> (I falsa).</p><p>Endereço lógico de 13 bits: 3 bits de página + 10 de deslocamento. 0110000000110 → página <b>011 = 3</b>, que é válida (BV = 1): a tradução funciona, sem exceção (III falsa). Paginação elimina a fragmentação externa, pois qualquer quadro livre serve (II verdadeira).</p>",
+   "video": {
+    "titulo": "Algoritmos de substituição de páginas",
+    "url": "https://www.youtube.com/watch?v=mzlaMAV1-wg"
+   }
   },
   {
    "id": "2014-CC-13",
@@ -3273,7 +3609,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>I e IV: numa ABB equilibrada como esta, cada comparação descarta metade dos nós, como na busca binária: O(log n).</p><p>II: balanceamento se mede por <b>altura</b>, não por número de nós; as alturas das subárvores (3 e 2) diferem em 1, então a árvore está balanceada. III: a pós-ordem dá 7, 14, 13, 10, 17, 25, 20, 15, que não é decrescente (a em-ordem é que dá ordem crescente).</p>"
+   "comentario": "<p>I e IV: numa ABB equilibrada como esta, cada comparação descarta metade dos nós, como na busca binária: O(log n).</p><p>II: balanceamento se mede por <b>altura</b>, não por número de nós; as alturas das subárvores (3 e 2) diferem em 1, então a árvore está balanceada. III: a pós-ordem dá 7, 14, 13, 10, 17, 25, 20, 15, que não é decrescente (a em-ordem é que dá ordem crescente).</p>",
+   "video": {
+    "titulo": "Árvore binária: em-ordem, pré-ordem e pós-ordem",
+    "url": "https://www.youtube.com/watch?v=4Bl2Xhd8hOA"
+   }
   },
   {
    "id": "2014-CC-20",
@@ -3312,7 +3652,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>Cada processo tem seu próprio espaço de endereçamento; as threads de um mesmo processo compartilham o dele. Figura 1: três processos com uma thread cada, em três espaços distintos (IV). Figura 2: um processo, um espaço, três threads (III), que executam de forma independente no mesmo ambiente (V).</p><p>I e II falham porque generalizam para as duas figuras o que vale só para uma.</p>"
+   "comentario": "<p>Cada processo tem seu próprio espaço de endereçamento; as threads de um mesmo processo compartilham o dele. Figura 1: três processos com uma thread cada, em três espaços distintos (IV). Figura 2: um processo, um espaço, três threads (III), que executam de forma independente no mesmo ambiente (V).</p><p>I e II falham porque generalizam para as duas figuras o que vale só para uma.</p>",
+   "video": {
+    "titulo": "Threads: semelhanças e diferenças em relação a processos",
+    "url": "https://www.youtube.com/watch?v=ktCafgI8adg"
+   }
   },
   {
    "id": "2014-CC-35",
@@ -3351,7 +3695,11 @@
     }
    ],
    "gabarito": "E",
-   "comentario": "<p>\"Mais de 2 andares\" = pelo menos 3 dos 4 sinais. O multiplexador escolhe a entrada pelo valor de AB:</p><ul><li>AB = 00: nenhum dos dois primeiros andares; mesmo com C e D, são só 2 → saída <b>0</b> (a constante 0);</li><li>AB = 01 ou 10: um andar; precisa de C <b>e</b> D → porta E;</li><li>AB = 11: dois andares; basta C <b>ou</b> D → porta OU.</li></ul><p>O circuito atende à especificação (I falsa). A constante 0 só é selecionada quando AB = 00 (II falsa).</p>"
+   "comentario": "<p>\"Mais de 2 andares\" = pelo menos 3 dos 4 sinais. O multiplexador escolhe a entrada pelo valor de AB:</p><ul><li>AB = 00: nenhum dos dois primeiros andares; mesmo com C e D, são só 2 → saída <b>0</b> (a constante 0);</li><li>AB = 01 ou 10: um andar; precisa de C <b>e</b> D → porta E;</li><li>AB = 11: dois andares; basta C <b>ou</b> D → porta OU.</li></ul><p>O circuito atende à especificação (I falsa). A constante 0 só é selecionada quando AB = 00 (II falsa).</p>",
+   "video": {
+    "titulo": "Circuitos digitais – multiplexadores",
+    "url": "https://www.youtube.com/watch?v=e70pe-Cdtfc"
+   }
   },
   {
    "id": "UDF-087",
@@ -3386,7 +3734,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>É o \"C\" do C.A.L.M.A.: comece pelo comando.</p>"
+   "comentario": "<p>É o \"C\" do C.A.L.M.A.: comece pelo comando.</p>",
+   "video": {
+    "titulo": "Como se preparar para o ENADE: questões objetivas",
+    "url": "https://www.youtube.com/watch?v=boroCITxrQI"
+   }
   },
   {
    "id": "UDF-088",
@@ -3421,7 +3773,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Ordem de chegada = FIFO = fila.</p>"
+   "comentario": "<p>Ordem de chegada = FIFO = fila.</p>",
+   "video": {
+    "titulo": "Estrutura de dados com Python: pilhas e filas",
+    "url": "https://www.youtube.com/watch?v=Ey_hbtTY2no"
+   }
   },
   {
    "id": "UDF-089",
@@ -3456,7 +3812,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Descreve uma função do sistema: requisito funcional.</p>"
+   "comentario": "<p>Descreve uma função do sistema: requisito funcional.</p>",
+   "video": {
+    "titulo": "Requisitos funcionais e não funcionais",
+    "url": "https://www.youtube.com/watch?v=g_ucgSKYs7E"
+   }
   },
   {
    "id": "UDF-090",
@@ -3491,7 +3851,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>O problema central é a qualidade dos dados.</p>"
+   "comentario": "<p>O problema central é a qualidade dos dados.</p>",
+   "video": {
+    "titulo": "Como identificar e remover dados duplicados",
+    "url": "https://www.youtube.com/watch?v=UKpakuaSnpk"
+   }
   },
   {
    "id": "UDF-091",
@@ -3526,7 +3890,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>Recuperação depende de backup testado.</p>"
+   "comentario": "<p>Recuperação depende de backup testado.</p>",
+   "video": {
+    "titulo": "Tipos de backup: completo, diferencial e incremental",
+    "url": "https://www.youtube.com/watch?v=wHyvucs3Wmo"
+   }
   },
   {
    "id": "UDF-092",
@@ -3561,7 +3929,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Avaliar, direcionar e monitorar a TI = governança.</p>"
+   "comentario": "<p>Avaliar, direcionar e monitorar a TI = governança.</p>",
+   "video": {
+    "titulo": "Governança de TI: princípios do COBIT",
+    "url": "https://www.youtube.com/watch?v=GXhOQsa5QEA"
+   }
   },
   {
    "id": "UDF-093",
@@ -3596,7 +3968,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Usuários reais executando tarefas observadas: teste de usabilidade.</p>"
+   "comentario": "<p>Usuários reais executando tarefas observadas: teste de usabilidade.</p>",
+   "video": {
+    "titulo": "As dez heurísticas de usabilidade de Nielsen",
+    "url": "https://www.youtube.com/watch?v=1gBV5PmiQz4"
+   }
   },
   {
    "id": "UDF-094",
@@ -3631,7 +4007,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>n × O(1) = O(n).</p>"
+   "comentario": "<p>n × O(1) = O(n).</p>",
+   "video": {
+    "titulo": "Notação Big O e complexidade de algoritmos",
+    "url": "https://www.youtube.com/watch?v=X_6LTVkymVM"
+   }
   },
   {
    "id": "UDF-095",
@@ -3666,7 +4046,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>1 + 2 + 3 + 4 = 10.</p>"
+   "comentario": "<p>1 + 2 + 3 + 4 = 10.</p>",
+   "video": {
+    "titulo": "Programação C – estruturas de repetição while e for",
+    "url": "https://www.youtube.com/watch?v=AFYbp6yxzOI"
+   }
   },
   {
    "id": "UDF-096",
@@ -3701,7 +4085,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Função do sistema.</p>"
+   "comentario": "<p>Função do sistema.</p>",
+   "video": {
+    "titulo": "Requisitos funcionais e não funcionais",
+    "url": "https://www.youtube.com/watch?v=g_ucgSKYs7E"
+   }
   },
   {
    "id": "UDF-097",
@@ -3736,7 +4124,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Reexecutar testes antigos após mudança = regressão.</p>"
+   "comentario": "<p>Reexecutar testes antigos após mudança = regressão.</p>",
+   "video": {
+    "titulo": "Níveis de teste: unidade, integração e sistema",
+    "url": "https://www.youtube.com/watch?v=MHImNvsj9fA"
+   }
   },
   {
    "id": "UDF-098",
@@ -3771,7 +4163,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>estudante_id é a FK para ESTUDANTE.</p>"
+   "comentario": "<p>estudante_id é a FK para ESTUDANTE.</p>",
+   "video": {
+    "titulo": "Integridade referencial e chave estrangeira",
+    "url": "https://www.youtube.com/watch?v=Ga0xHsi79uM"
+   }
   },
   {
    "id": "UDF-099",
@@ -3806,7 +4202,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>WHERE filtra, GROUP BY agrupa, COUNT conta.</p>"
+   "comentario": "<p>WHERE filtra, GROUP BY agrupa, COUNT conta.</p>",
+   "video": {
+    "titulo": "Como usar JOIN (INNER, LEFT, RIGHT, FULL)",
+    "url": "https://www.youtube.com/watch?v=D_qz5yK2-_8"
+   }
   },
   {
    "id": "UDF-100",
@@ -3841,7 +4241,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>40/50 × 100 = 80%.</p>"
+   "comentario": "<p>40/50 × 100 = 80%.</p>",
+   "video": {
+    "titulo": "Porcentagem – calculando a taxa percentual",
+    "url": "https://www.youtube.com/watch?v=yIpM_xErG4E"
+   }
   },
   {
    "id": "UDF-101",
@@ -3876,7 +4280,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Sequência temporal não prova causa.</p>"
+   "comentario": "<p>Sequência temporal não prova causa.</p>",
+   "video": {
+    "titulo": "O que é causalidade?",
+    "url": "https://www.youtube.com/watch?v=XRJuic6gURU"
+   }
   },
   {
    "id": "UDF-102",
@@ -3911,7 +4319,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Feedback e mensagens de erro úteis.</p>"
+   "comentario": "<p>Feedback e mensagens de erro úteis.</p>",
+   "video": {
+    "titulo": "As dez heurísticas de usabilidade de Nielsen",
+    "url": "https://www.youtube.com/watch?v=1gBV5PmiQz4"
+   }
   },
   {
    "id": "UDF-103",
@@ -3946,7 +4358,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>A evidência aponta para a CPU.</p>"
+   "comentario": "<p>A evidência aponta para a CPU.</p>",
+   "video": {
+    "titulo": "Como os computadores funcionam – arquitetura de Von Neumann",
+    "url": "https://www.youtube.com/watch?v=-22hT2vXD48"
+   }
   },
   {
    "id": "UDF-104",
@@ -3981,7 +4397,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Falha na resolução de nome = DNS.</p>"
+   "comentario": "<p>Falha na resolução de nome = DNS.</p>",
+   "video": {
+    "titulo": "DNS e o sistema de nomes de domínio",
+    "url": "https://www.youtube.com/watch?v=JRAEbwB9cSo"
+   }
   },
   {
    "id": "UDF-105",
@@ -4016,7 +4436,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Com MFA, a senha sozinha não basta.</p>"
+   "comentario": "<p>Com MFA, a senha sozinha não basta.</p>",
+   "video": {
+    "titulo": "O que é MFA (autenticação multifator)?",
+    "url": "https://www.youtube.com/watch?v=NUEqVIen_c8"
+   }
   },
   {
    "id": "UDF-106",
@@ -4051,7 +4475,11 @@
     }
    ],
    "gabarito": "A",
-   "comentario": "<p>Cada usuário deve ter só as permissões da sua função.</p>"
+   "comentario": "<p>Cada usuário deve ter só as permissões da sua função.</p>",
+   "video": {
+    "titulo": "Gerenciando contas privilegiadas (menor privilégio)",
+    "url": "https://www.youtube.com/watch?v=MOzIawS1ZYw"
+   }
   },
   {
    "id": "UDF-107",
@@ -4086,7 +4514,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Mitigar = reduzir probabilidade ou impacto.</p>"
+   "comentario": "<p>Mitigar = reduzir probabilidade ou impacto.</p>",
+   "video": {
+    "titulo": "Gerenciamento dos riscos (PMBOK)",
+    "url": "https://www.youtube.com/watch?v=gock4juWyjI"
+   }
   },
   {
    "id": "UDF-108",
@@ -4121,7 +4553,11 @@
     }
    ],
    "gabarito": "B",
-   "comentario": "<p>Medir desempenho por grupo e corrigir dados ou modelo.</p>"
+   "comentario": "<p>Medir desempenho por grupo e corrigir dados ou modelo.</p>",
+   "video": {
+    "titulo": "Como combater o viés algorítmico?",
+    "url": "https://www.youtube.com/watch?v=4P6ILQF9MvI"
+   }
   },
   {
    "id": "UDF-109",
@@ -4156,7 +4592,11 @@
     }
    ],
    "gabarito": "C",
-   "comentario": "<p>40/200 × 100 = 20%.</p>"
+   "comentario": "<p>40/200 × 100 = 20%.</p>",
+   "video": {
+    "titulo": "Porcentagem – calculando a taxa percentual",
+    "url": "https://www.youtube.com/watch?v=yIpM_xErG4E"
+   }
   }
  ]
 }

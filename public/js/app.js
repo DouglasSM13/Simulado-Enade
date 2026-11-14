@@ -54,6 +54,15 @@ function filtrar() {
   return l; // a API já entrega na ordem "mais recentes primeiro"
 }
 
+/* ---------- videoaula do assunto (só aceita links do YouTube) ---------- */
+function video(q) {
+  const v = q.video;
+  if (!v || !/^https:\/\/www\.youtube\.com\/watch\?v=[\w-]{11}$/.test(v.url)) return "";
+  return `<a class="q-video" href="${v.url}" target="_blank" rel="noopener noreferrer" title="${esc(v.titulo)}">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8 5.5v13l11-6.5z"/></svg>
+      <span>Videoaula<span class="q-video-t">: ${esc(v.titulo)}</span></span></a>`;
+}
+
 /* ---------- cartão de questão ---------- */
 function cartao(q) {
   const r = estado.resp[q.id];
@@ -70,7 +79,7 @@ function cartao(q) {
   let corpo = "", acoes = "", panes = "";
   const tabs = `<div class="q-tabs" role="tablist">
       <button type="button" data-tab="com" data-q="${q.id}" aria-expanded="${ab === "com" || ab === "rev"}">${q.discursiva ? "Resposta comentada" : "Gabarito comentado"}</button>
-      <button type="button" data-tab="not" data-q="${q.id}" aria-expanded="${ab === "not"}">Minhas anotações</button></div>`;
+      <button type="button" data-tab="not" data-q="${q.id}" aria-expanded="${ab === "not"}">Minhas anotações</button>${video(q)}</div>`;
 
   if (q.discursiva) {
     acoes = `<div class="q-actions"><span class="result" style="background:var(--warn-soft);color:var(--warn)">Questão discursiva: responda no papel e depois confira.</span></div>`;

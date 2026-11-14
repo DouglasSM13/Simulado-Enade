@@ -10,6 +10,13 @@ class Alternativa(BaseModel):
     texto: str
 
 
+class Video(BaseModel):
+    """Videoaula em português (YouTube) sobre o assunto da questão."""
+
+    titulo: str
+    url: str
+
+
 class QuestaoPublica(BaseModel):
     """Questão como o aluno a vê: sem gabarito nem comentário."""
 
@@ -27,6 +34,7 @@ class QuestaoPublica(BaseModel):
     fonte_texto_base: Optional[str] = None
     enunciado: str
     alternativas: list[Alternativa]
+    video: Optional[Video] = None
 
 
 class PaginaQuestoes(BaseModel):

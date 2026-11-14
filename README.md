@@ -93,5 +93,6 @@ O gabarito fica só no servidor. O progresso de cada pessoa (respostas, alternat
 - Figuras criadas para a prova aparecem recortadas do caderno; figuras e imagens reproduzidas de livros ou sites de terceiros aparecem **descritas em texto**.
 - Questões anuladas pelo INEP, com gabarito controverso ou que dependem de fotografias de terceiros não foram incluídas.
 - Os comentários dos gabaritos são explicações próprias, não do INEP.
+- Cada questão tem um link **Videoaula** (campo `video` em `api/_app/dados/questoes.json`) para uma aula gratuita em português no YouTube sobre o assunto. Os vídeos são de terceiros: se algum sair do ar, basta trocar a URL nesse arquivo. Por segurança, a página só exibe links no formato `https://www.youtube.com/watch?v=...`.
 
 Fontes: cadernos de prova e gabaritos definitivos do ENADE (INEP), obtidos em <https://github.com/geacc/enade>; questões de treino de <https://github.com/Kadidjah/ENADE-2026-Treinamento-UDF> (Profª Kadidja Valéria, UDF).

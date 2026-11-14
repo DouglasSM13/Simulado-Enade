@@ -59,3 +59,12 @@ def test_figuras_referenciadas_existem_em_public():
         html = q["enunciado"] + "".join(a["texto"] for a in q["alternativas"])
         for nome in re.findall(r"\{API\}/figuras/([\w-]+\.webp)", html):
             assert (PUBLIC / "figuras" / nome).exists(), nome
+
+
+def test_toda_questao_tem_videoaula_do_youtube():
+    itens = cli.get("/api/questoes").json()["itens"]
+    assert len(itens) == 110
+    for q in itens:
+        v = q["video"]
+        assert v and v["titulo"], q["id"]
+        assert re.fullmatch(r"https://www\.youtube\.com/watch\?v=[\w-]{11}", v["url"]), q["id"]
