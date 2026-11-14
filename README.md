@@ -2,8 +2,6 @@
 
 Banco de questões para preparação para o ENADE, com questões oficiais do INEP (Ciência da Computação – Bacharelado 2014, 2017 e 2021; Sistemas de Informação – Bacharelado 2021) e questões de treino do repositório *ENADE-2026-Treinamento-UDF*.
 
-Pronto para subir no GitHub e publicar na Vercel: o site estático fica em `public/` e a API em FastAPI roda como função Python em `api/`, no mesmo domínio.
-
 ```
 enade-banco/
 ├── api/
