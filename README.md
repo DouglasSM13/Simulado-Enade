@@ -60,9 +60,10 @@ Seu progresso fica salvo no seu próprio navegador. Não é preciso criar conta,
 - Os comentários dos gabaritos são explicações próprias, não do INEP.
 - As videoaulas são de canais de terceiros no YouTube.
 
-## 🙏 Créditos
+## 🙏 Créditos e Fonte
 
 - Provas e gabaritos: **INEP**, Exame Nacional de Desempenho dos Estudantes (ENADE).
+- Fonte: https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enade/provas-e-gabaritos
 - Questões de treino: repositório [ENADE-2026-Treinamento-UDF](https://github.com/Kadidjah/ENADE-2026-Treinamento-UDF), da **Profª Kadidja Valéria (UDF)**.
 
 Bons estudos e boa prova! 🍀
