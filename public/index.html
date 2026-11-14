@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banco de Questões ENADE Computação</title>
+<script>
+(function(){var t=null;try{t=localStorage.getItem("enadeTema")}catch(e){}
+if(t!=="light"&&t!=="dark"){t=(window.matchMedia&&matchMedia("(prefers-color-scheme: dark)").matches)?"dark":"light"}
+document.documentElement.setAttribute("data-theme",t);})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%277%27 fill=%27%2316325c%27/%3E%3Ctext x=%2716%27 y=%2721%27 font-family=%27Arial%27 font-weight=%27700%27 font-size=%2713%27 fill=%27white%27 text-anchor=%27middle%27%3EEN%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/config.js"></script>
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <div class="logo"><span class="mark">EN</span><span>Banco de Questões ENADE<small>Ciência da Computação · Sistemas de Informação</small></span></div>
+    <div class="top-stats" id="topStats" aria-live="polite"></div>
+    <button type="button" class="theme-btn" id="bTema" aria-label="Ativar tema escuro" title="Alternar tema">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <g class="sun"><circle class="sun-core" cx="12" cy="12" r="4.6"/><g class="rays">
+          <line x1="12" y1="1.6" x2="12" y2="4.2"/><line x1="12" y1="19.8" x2="12" y2="22.4"/>
+          <line x1="1.6" y1="12" x2="4.2" y2="12"/><line x1="19.8" y1="12" x2="22.4" y2="12"/>
+          <line x1="4.65" y1="4.65" x2="6.5" y2="6.5"/><line x1="17.5" y1="17.5" x2="19.35" y2="19.35"/>
+          <line x1="4.65" y1="19.35" x2="6.5" y2="17.5"/><line x1="17.5" y1="6.5" x2="19.35" y2="4.65"/></g></g>
+        <g class="moon"><path d="M20.2 14.6A8.6 8.6 0 0 1 9.4 3.8a8.6 8.6 0 1 0 10.8 10.8Z"/></g>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<div class="page">
+  <aside class="side" aria-label="Filtros e desempenho">
+    <section class="panel">
+      <h2>Filtrar questões</h2>
+      <div class="fgroup"><span class="lbl">Edição</span><div id="fAno"></div></div>
+      <div class="fgroup"><span class="lbl">Prova</span><div id="fProva"></div></div>
+      <div class="fgroup"><label for="fDisc">Disciplina</label><select id="fDisc" class="full"></select></div>
+      <div class="fgroup"><label for="fStatus">Situação</label>
+        <select id="fStatus" class="full">
+          <option value="todas">Todas</option><option value="nao">Não resolvidas</option><option value="certas">Que acertei</option><option value="erradas">Que errei</option>
+        </select></div>
+      <div class="fgroup"><label for="fOrdem">Ordem</label>
+        <select id="fOrdem" class="full"><option value="recente">Mais recentes primeiro</option><option value="aleatoria">Aleatória</option></select></div>
+      <div class="side-actions"><button class="btn" id="bLimpar" type="button">Limpar filtros</button><button class="btn" id="bZerar" type="button">Zerar respostas</button></div>
+    </section>
+    <section class="panel">
+      <h2>Seu desempenho</h2>
+      <div class="perf" id="perf"></div>
+    </section>
+  </aside>
+
+  <main>
+    <div class="results-head">
+      <h1 id="rTitle">Questões</h1>
+      <span class="meta" id="rMeta"></span>
+      <div class="right"><label for="fPer" class="meta">Por página</label>
+        <select id="fPer" class="full" style="width:auto"><option>5</option><option selected>10</option><option>20</option><option>50</option></select></div>
+    </div>
+    <p class="notice"><b>Como usar:</b> marque uma alternativa e clique em <b>Responder</b>. A tesoura (✂) risca alternativas que você já eliminou. Questões oficiais do INEP vêm com o gabarito definitivo; o <b>gabarito comentado</b> explica cada alternativa.</p>
+    <div id="lista"></div>
+    <nav class="pager" id="pager" aria-label="Paginação"></nav>
+    <p class="foot">
+      <b>Fontes.</b> Cadernos de prova e gabaritos definitivos do ENADE (INEP): Ciência da Computação – Bacharelado (2014, 2017 e 2021) e Sistemas de Informação – Bacharelado (2021), obtidos no repositório público <a href="https://github.com/geacc/enade">github.com/geacc/enade</a>. Questões de treino: <a href="https://github.com/Kadidjah/ENADE-2026-Treinamento-UDF">ENADE-2026-Treinamento-UDF</a> (Profª Kadidja Valéria, UDF).
+      Comandos, afirmativas e alternativas seguem o caderno oficial. Textos-base extraídos de livros e artigos de terceiros aparecem resumidos, com a referência. Figuras criadas para a prova aparecem recortadas do caderno; figuras e imagens reproduzidas de livros ou sites de terceiros aparecem descritas em texto. Questões anuladas pelo INEP, com gabarito controverso ou que dependem de fotografias de terceiros não foram incluídas. Os comentários são explicações próprias.
+    </p>
+  </main>
+</div>
+
+</body>
+</html>
